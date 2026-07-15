@@ -1,0 +1,7 @@
+interface:
+  display_name: "產製每日 AI 焦點快報"
+  short_description: "每日搜尋、分類、摘要新聞並產生可追溯的客群溝通建議"
+  default_prompt: "Use $build-daily-focus-brief to produce today's source-linked daily focus brief."
+
+policy:
+  allow_implicit_invocation: true
