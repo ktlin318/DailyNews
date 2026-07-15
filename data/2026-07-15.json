@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-07-15",
+  "timezone": "Asia/Taipei",
+  "generated_at": "2026-07-15T16:30:00+08:00",
+  "source_window": {"start": "2026-07-14T00:00:00+08:00", "end": "2026-07-15T08:00:00+08:00"},
+  "daily_overview": "美國通膨降溫帶動美股走高，但 Fed 政策討論、台股劇烈震盪，以及企業與 ETF 對 AI 題材的布局，仍是今日需要分別觀察的焦點。",
+  "topic_overviews": {
+    "全部": "美國通膨降溫帶動美股走高，但 Fed 政策討論、台股劇烈震盪，以及企業與 ETF 對 AI 題材的布局，仍是今日需要分別觀察的焦點。",
+    "國際": "美國 6 月 CPI 月減 0.4%、年增 3.5%，市場同時關注 Fed 對政策架構與資產負債表溝通的後續方向。",
+    "台股": "台股 7 月 14 日盤中一度重挫 1,726.48 點，終場跌幅收斂至 642.57 點，短線波動與資金承接力道成為焦點。",
+    "ETF": "永豐台灣科技趨勢主動式 ETF 於 7 月 13 日至 17 日募集，產品聚焦台灣科技與 AI 供應鏈，但發行商資料不代表未來績效。",
+    "AI": "Fed 官員提醒 AI 的生產力效益與所得分配風險可能並存；IBM 的初步財報也顯示企業科技支出項目出現差異。"
+  },
+  "topics": ["全部", "國際", "台股", "ETF", "AI"],
+  "audiences": ["全部客群", "高資產", "外幣交易", "海外消費"],
+  "events": [
+    {
+      "event_id": "2026-07-15-us-june-cpi",
+      "topic": "國際",
+      "time": "20:30",
+      "title": "美國 6 月 CPI 月減 0.4%，年增率為 3.5%",
+      "summary": "美國勞工統計局表示，6 月 CPI 經季節調整後較前月下降 0.4%，未經季節調整的年增率為 3.5%；核心 CPI 月增率持平，年增率為 2.6%。美股當日走高，S&P 500 上漲 0.4%，Nasdaq 上漲 0.9%。",
+      "impact": "通膨數據低於市場原先擔憂，債券殖利率回落並降低市場對 Fed 近期升息的押注。",
+      "keywords": ["美國CPI", "通膨", "Fed", "美股"],
+      "audiences": ["全部客群", "高資產", "外幣交易", "海外消費"],
+      "sources": [
+        {"publisher": "U.S. Bureau of Labor Statistics", "title": "Consumer Price Index - June 2026", "url": "https://www.bls.gov/news.release/cpi.htm?lv=true", "published_at": "2026-07-14T08:30:00-04:00", "source_type": "primary"},
+        {"publisher": "Associated Press", "title": "US stocks rise after data shows slowing inflation, even as IBM plunges", "url": "https://apnews.com/article/6807d21c72974fbac48356f83eeebbce", "published_at": "2026-07-14", "source_type": "reporting"}
+      ],
+      "evidence_notes": ["BLS 支持 CPI 月增率、年增率與核心 CPI 數值。", "AP 支持 S&P 500、Nasdaq、殖利率與市場利率預期的描述。"]
+    },
+    {
+      "event_id": "2026-07-15-fed-policy-framework",
+      "topic": "國際",
+      "time": "07/14",
+      "title": "Fed 主席赴國會說明貨幣政策與政策研究方向",
+      "summary": "Fed 主席 Kevin Warsh 向眾議院金融服務委員會提交半年度貨幣政策報告，並說明 Fed 將研究資料來源、生產力與就業，以及通膨架構。另據 Reuters 報導，他表示資產負債表政策若有變動，市場將獲得充分的預告與說明。",
+      "impact": "市場後續將關注政策研究是否轉化為利率、溝通方式或資產負債表操作的具體改變。",
+      "keywords": ["Fed", "貨幣政策", "資產負債表", "國會聽證"],
+      "audiences": ["全部客群", "高資產", "外幣交易"],
+      "sources": [
+        {"publisher": "Federal Reserve Board", "title": "Semiannual Monetary Policy Report to the Congress", "url": "https://www.federalreserve.gov/newsevents/testimony/warsh20260714a.htm", "published_at": "2026-07-14", "source_type": "primary"},
+        {"publisher": "Reuters", "title": "Warsh says markets to get ample notice to any Fed balance sheet changes", "url": "https://www.investing.com/news/economy-news/warsh-says-markets-to-get-ample-notice-to-any-fed-balance-sheet-changes-4791260", "published_at": "2026-07-14T11:01:00-04:00", "source_type": "reporting"}
+      ],
+      "evidence_notes": ["Fed 證詞支持三項政策研究方向。", "Reuters 報導支持資產負債表政策變動將預先溝通的說法。"]
+    },
+    {
+      "event_id": "2026-07-15-twse-volatile-session",
+      "topic": "台股",
+      "time": "13:48",
+      "title": "台股跌 642.57 點收 44,737.95 點，盤中跌幅一度擴大",
+      "summary": "中央社報導，加權指數 7 月 14 日盤中一度下跌 1,726.48 點至 43,654.04 點，終場收在 44,737.95 點，下跌 642.57 點，成交值為新台幣 1 兆 1,786.17 億元。",
+      "impact": "盤中跌幅明顯收斂，但單日震盪幅度仍大，後續可觀察成交量與主要權值股的資金承接。",
+      "keywords": ["台股", "加權指數", "成交值", "市場波動"],
+      "audiences": ["全部客群", "高資產"],
+      "sources": [
+        {"publisher": "中央通訊社", "title": "台股下跌642點 收44737點留1083點下影線", "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E4%B8%8B%E8%B7%8C642%E9%BB%9E-%E6%94%B644737%E9%BB%9E%E7%95%991083%E9%BB%9E%E4%B8%8B%E5%BD%B1%E7%B7%9A-054834457.html", "published_at": "2026-07-14T13:48:00+08:00", "source_type": "reporting"}
+      ],
+      "evidence_notes": ["中央社報導支持指數高低、收盤點位、漲跌點數與成交值。"]
+    },
+    {
+      "event_id": "2026-07-15-sinopac-active-etf-offering",
+      "topic": "ETF",
+      "time": "07/14",
+      "title": "永豐台灣科技趨勢主動式 ETF 進入募集期間",
+      "summary": "永豐投信資料顯示，永豐台灣科技趨勢主動式 ETF（00410A）於 7 月 13 日至 17 日募集，發行價每股新台幣 10 元，產品定位聚焦台灣科技產業。",
+      "impact": "主動式科技 ETF 選擇增加，評估時仍需比較投資範圍、費用、風險與自身配置目的。",
+      "keywords": ["00410A", "主動式ETF", "台灣科技", "募集"],
+      "audiences": ["全部客群", "高資產"],
+      "sources": [
+        {"publisher": "永豐投信", "title": "00410A 永豐台灣科技趨勢主動式ETF", "url": "https://sitc.sinopac.com/newweb/event/20260713B/index.html", "published_at": "2026-07-13", "source_type": "issuer"},
+        {"publisher": "經濟日報", "title": "搶攻台股主動ETF市場 00410A聚焦AI與創新成長", "url": "https://money.udn.com/money/story/5636/9623423", "published_at": "2026-07-13", "source_type": "reporting"}
+      ],
+      "evidence_notes": ["永豐投信與經濟日報支持基金代號、募集日期、發行價與產品定位。"]
+    },
+    {
+      "event_id": "2026-07-15-ai-productivity-inequality",
+      "topic": "AI",
+      "time": "07/14",
+      "title": "Fed 官員：AI 生產力效益與所得分配風險並存",
+      "summary": "Fed 理事 Michael S. Barr 表示，AI 可能提高生產力與生活水準，也可能因工作替代與能力取得差異而擴大所得與財富不均；他強調目前無法確定哪種情境會發生。",
+      "impact": "AI 投資討論除技術與企業成長外，也將持續延伸至勞動市場、教育與政策議題。",
+      "keywords": ["AI", "生產力", "就業", "所得不均"],
+      "audiences": ["全部客群", "高資產"],
+      "sources": [
+        {"publisher": "Federal Reserve Board", "title": "Will Artificial Intelligence Broadly Raise Living Standards or Drive Income and Wealth Inequality?", "url": "https://www.federalreserve.gov/newsevents/speech/barr20260714a.htm", "published_at": "2026-07-14", "source_type": "primary"}
+      ],
+      "evidence_notes": ["Fed 官員演講原文支持 AI 對生產力、工作替代與不均的情境分析；摘要保留其不確定性。"]
+    },
+    {
+      "event_id": "2026-07-15-ibm-preliminary-results",
+      "topic": "AI",
+      "time": "07/14",
+      "title": "IBM 公布第二季初步結果，軟體與基礎設施表現分化",
+      "summary": "IBM 公布初步第二季營收為 172 億美元、年增 1%；軟體營收成長 5%，基礎設施營收下降 7%。公司表示結果仍在結算，最終數字可能略有不同。",
+      "impact": "企業資本支出重新分配與 AI 相關投資，可能使不同科技產品線的營收表現持續分化。",
+      "keywords": ["IBM", "初步財報", "企業AI", "科技支出"],
+      "audiences": ["全部客群", "高資產"],
+      "sources": [
+        {"publisher": "IBM Newsroom", "title": "Arvind Krishna's Letter to IBM Investors", "url": "https://newsroom.ibm.com/2026-07-14-Arvind-Krishnas-Letter-to-IBM-Investors", "published_at": "2026-07-14", "source_type": "primary"},
+        {"publisher": "Associated Press", "title": "US stocks rise after data shows slowing inflation, even as IBM plunges", "url": "https://apnews.com/article/6807d21c72974fbac48356f83eeebbce", "published_at": "2026-07-14", "source_type": "reporting"}
+      ],
+      "evidence_notes": ["IBM 原文支持初步營收與部門成長率，並明示最終結果可能略有不同。", "AP 提供市場反應背景。"]
+    }
+  ],
+  "audience_talk_tracks": {
+    "全部|全部客群": {"opening": "今天可先從美國通膨、Fed 訊號、台股震盪與 AI 產業消息中，挑一個您最關心的方向聊聊。", "questions": ["您目前較關心市場波動、利率匯率，還是科技產業變化？", "近期是否有需要重新檢視的資金用途或投資配置？"]},
+    "國際|全部客群": {"opening": "美國 6 月通膨較前月下降，但 Fed 後續政策溝通仍值得持續觀察。", "questions": ["您目前比較在意利率、匯率，還是海外市場波動？", "接下來是否有外幣、債券或海外資金安排？"]},
+    "國際|外幣交易": {"opening": "美國通膨數據與 Fed 訊號可能讓美元及利率預期持續調整，可一起檢視近期外幣需求。", "questions": ["近期預計使用哪一種外幣，以及大約何時需要？", "這筆外幣主要用於支付、現金管理，還是資產配置？"]},
+    "國際|海外消費": {"opening": "近期美元與利率預期仍可能隨美國數據變動，若有海外支出可提早盤點時間與幣別。", "questions": ["近期是否已有確定的旅遊、學費或海外付款日期？", "比較希望一次準備，還是依時間分批安排？"]},
+    "台股|全部客群": {"opening": "台股昨天盤中波動很大，雖然跌幅收斂，仍適合先檢視目前部位與可承受波動。", "questions": ["您較關注大盤方向，還是特定產業與個股？", "目前台股部位的集中程度是否符合原先規劃？"]},
+    "ETF|全部客群": {"opening": "市場上的主動式科技 ETF 選擇增加，除了題材，也值得比較產品結構與投資目的。", "questions": ["您選擇 ETF 時較重視分散、現金流，還是產業成長？", "目前 ETF 與個股的配置比例是否需要一起檢視？"]},
+    "AI|全部客群": {"opening": "今天的 AI 焦點同時涵蓋企業投資、生產力與就業影響，產業機會與風險需要分開觀察。", "questions": ["您較關注 AI 基礎建設、企業應用，還是長期社會影響？", "若已有 AI 相關部位，您比較在意成長潛力還是波動控制？"]},
+    "全部|高資產": {"opening": "今天的通膨、利率、台股與科技消息可能影響不同資產，可從整體配置與流動性需求一起檢視。", "questions": ["近期是否有到期資金、外幣需求或較大的現金流安排？", "目前比較希望提高穩定性、保留流動性，還是掌握長期成長？"]}
+  },
+  "warnings": ["本期為第一階段 MVP 人工觸發產製，尚未建立每日自動排程。", "新聞時間依來源可確認資訊呈現；僅有日期的來源不補寫發布時刻。"],
+  "manual_review_items": ["台股事件目前以中央社單一報導支持，正式發布流程宜再比對證交所每日收盤資料。", "00410A 事件包含發行商與募集相關資訊，內容不得解讀為績效預測或申購建議。", "IBM 第二季資料為公司公布的初步結果，7 月 22 日完整財報公布後需評估是否更新。"]
+}

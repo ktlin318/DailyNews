@@ -32,44 +32,22 @@
     </div></aside>
   </div>
   <script>
-    const topics=["全部","國際","台股","ETF","AI"],topicLabels={全部:"全部",國際:"國際",台股:"台股",ETF:"ETF",AI:"AI"},audiences=["全部客群","高資產","外幣交易","海外消費"];
-    const newsByDate={
-      "2026-07-15":[
-        {topic:"國際",time:"08:30",title:"全球市場等待 Fed 最新政策訊號",summary:"市場焦點集中於政策利率與後續措辭，美元、債券殖利率及風險性資產可能隨利率預期調整。",keywords:["Fed","利率","美元"],audience:["高資產","外幣交易"],sources:[["國際來源 A","https://example.com/global-a"],["國際來源 B","https://example.com/global-b"]]},
-        {topic:"台股",time:"09:20",title:"台股權值股領漲，資金關注成交結構",summary:"大型權值股帶動指數表現，市場持續觀察量能是否擴散，以及中小型股能否跟上輪動。",keywords:["台股","權值股","成交量"],audience:["高資產"],sources:[["台股來源","https://example.com/tw-stock"]]},
-        {topic:"ETF",time:"10:05",title:"ETF 資金流向反映投資人偏好轉變",summary:"大盤型、配息型與主題型 ETF 呈現不同資金動向，投資人更重視分散程度、費用與持有目的。",keywords:["ETF","資金流向","配置"],audience:["高資產"],sources:[["ETF 來源","https://example.com/etf"]]},
-        {topic:"AI",time:"10:50",title:"AI 基礎建設投資持續帶動供應鏈",summary:"雲端、算力與資料中心投資仍是 AI 產業的重要支撐，半導體與伺服器供應鏈持續受到關注。",keywords:["AI","半導體","資料中心"],audience:["高資產"],sources:[["AI 產業來源","https://example.com/ai"]]}
-      ],
-      "2026-07-14":[
-        {topic:"國際",time:"08:40",title:"美元與債券市場消化最新經濟數據",summary:"利率預期隨經濟數據調整，美元與主要債券市場維持波動。",keywords:["美元","債券","經濟數據"],audience:["高資產","外幣交易"],sources:[["國際來源","https://example.com/global"]]},
-        {topic:"台股",time:"09:35",title:"台股科技族群延續輪動行情",summary:"科技權值與供應鏈個股表現分化，市場關注成交量與外資動向。",keywords:["台股","科技股","外資"],audience:["高資產"],sources:[["台股來源","https://example.com/tw-stock"]]},
-        {topic:"ETF",time:"10:15",title:"投資人持續關注 ETF 配置與配息",summary:"市場波動下，ETF 的持股結構、配息來源與費用成為主要比較重點。",keywords:["ETF","配息","持股"],audience:["高資產"],sources:[["ETF 來源","https://example.com/etf"]]},
-        {topic:"AI",time:"11:00",title:"AI 應用與算力需求維持市場熱度",summary:"企業加速評估 AI 應用，市場持續觀察資本支出能否轉化為實際營收。",keywords:["AI","算力","資本支出"],audience:["高資產"],sources:[["AI 來源","https://example.com/ai"]]}
-      ]
-    };
-    const overview={全部:"全球政策訊號、台股資金輪動、ETF 配置與 AI 成長題材，是今日市場的四大觀察重點。",國際:"全球市場聚焦 Fed 政策路徑，利率與美元變化可能影響債券及風險性資產表現。",台股:"台股由大型權值股帶動，後續需觀察成交量、外資動向與產業輪動是否擴散。",ETF:"ETF 資金流向出現分化，配置時需同步比較持股結構、費用、配息來源與投資目的。",AI:"AI 基礎建設投資維持熱度，市場關注算力需求、半導體供應鏈與企業應用落地。"};
-    const tracks={
-      "全部|全部客群":{open:"今天市場焦點涵蓋國際利率、台股、ETF 與 AI，想先從您最近最關心的方向聊起。",q:["目前較關注收益、成長，還是資金穩定性？","近期是否有需要調整的投資或外幣安排？"]},
-      "國際|全部客群":{open:"今天國際市場最關注利率與美元方向，可能同時影響債券與風險性資產。",q:["您較在意利率、匯率，還是全球股市變化？","近期是否有外幣或海外資產安排？"]},
-      "國際|外幣交易":{open:"Fed 政策訊號可能帶動美元波動，若近期有換匯或海外付款需求，可以提前討論時間點。",q:["近期預計使用哪一種外幣？","主要需求是支付、收益，還是資產配置？"]},
-      "台股|全部客群":{open:"今天台股由權值股帶動，但資金仍相對集中，可以一起觀察目前持股是否需要調整。",q:["目前較關注大盤方向還是特定產業？","現有台股部位的集中度是否符合預期？"]},
-      "ETF|全部客群":{open:"ETF 的資金流向與產品結構出現差異，適合從投資目的重新檢視配置。",q:["偏好大盤型、配息型還是主題型 ETF？","較重視現金流還是長期資產成長？"]},
-      "AI|全部客群":{open:"AI 題材已從晶片延伸到資料中心與企業應用，產業機會更廣，但個別企業差異也更大。",q:["偏好核心企業還是分散型布局？","目前 AI 相關資產比重是否符合風險偏好？"]},
-      "國際|高資產":{open:"今天的國際利率與匯率訊號可能影響多種資產，我們可以一起檢視整體配置。",q:["近期是否有到期資金需要安排？","較在意收益穩定，還是資產增值機會？"]},
-      "台股|高資產":{open:"台股輪動速度加快，可以從既有部位與集中度開始檢視。",q:["目前最關注哪一個產業？","是否考慮分批調整配置？"]},
-      "ETF|高資產":{open:"ETF 可以協助分散配置，但仍需確認產品結構是否符合您的目標。",q:["較重視配息還是總報酬？","目前 ETF 與個股的配置比例如何？"]},
-      "AI|高資產":{open:"AI 長期趨勢仍受關注，但評價與企業差異擴大，可以重新檢視持有方式。",q:["偏好個股或 ETF 分散布局？","可接受的產業波動範圍為何？"]}
-    };
-    const state={date:"2026-07-15",topic:"全部",audience:"全部客群"};
+    const state={date:"",topic:"全部",audience:"全部客群"};
+    const topicLabels={全部:"全部",國際:"國際",台股:"台股",ETF:"ETF",AI:"AI"};
     const picker=document.querySelector("#datePicker"),topicPills=document.querySelector("#topicPills"),audiencePills=document.querySelector("#audiencePills");
+    let digest=null;
+    function escapeHtml(value){return String(value).replace(/[&<>"]/g,char=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[char]))}
+    function safeUrl(value){try{const url=new URL(value,location.href);return url.protocol==="https:"?url.href:"#"}catch{return "#"}}
     function tagClass(topic){return topic==="台股"?"macro":topic==="ETF"?"market":topic==="AI"?"ai":"life"}
     function formatDate(value){const d=new Date(value+"T00:00:00");return d.toLocaleDateString("zh-TW",{year:"numeric",month:"long",day:"numeric",weekday:"short"})}
-    function renderPills(){topicPills.innerHTML=topics.map(x=>`<button class="pill ${state.topic===x?"active":""}" data-topic="${x}">${topicLabels[x]}</button>`).join("");audiencePills.innerHTML=audiences.map(x=>`<button class="pill ${state.audience===x?"active":""}" data-audience="${x}">${x}</button>`).join("");document.querySelectorAll("[data-topic]").forEach(b=>b.onclick=()=>{state.topic=b.dataset.topic;render()});document.querySelectorAll("[data-audience]").forEach(b=>b.onclick=()=>{state.audience=b.dataset.audience;render()})}
-    function renderNews(){const list=(newsByDate[state.date]||[]).filter(n=>(state.topic==="全部"||n.topic===state.topic)&&(state.audience==="全部客群"||n.audience.includes(state.audience)));document.querySelector("#newsList").innerHTML=list.length?list.map(n=>`<article class="news-card"><div class="news-meta"><span class="topic-tag ${tagClass(n.topic)}">${topicLabels[n.topic]}</span><span class="news-time">${n.time}</span></div><h3>${n.title}</h3><p class="summary">${n.summary}</p><div class="keywords">${n.keywords.map(k=>`<span class="keyword">#${k}</span>`).join("")}</div><div class="sources">${n.sources.map(s=>`<a class="source-link" href="${s[1]}" target="_blank" rel="noreferrer">${s[0]} ↗</a>`).join("")}</div></article>`).join(""):'<div class="empty">此主題在所選日期暫無新聞內容。</div>'}
-    function renderTrack(){const key=state.topic+"|"+state.audience,track=tracks[key]||tracks[state.topic+"|全部客群"]||tracks["全部|"+state.audience]||tracks["全部|全部客群"];document.querySelector("#comboLabel").innerHTML=`${state.topic==="全部"?"全部主題":state.topic}<span>×</span>${state.audience}`;document.querySelector("#openingText").textContent="「"+track.open+"」";document.querySelector("#followupList").innerHTML=track.q.map(q=>`<li><span class="q">Q</span><span>${q}</span></li>`).join("")}
-    function render(){document.querySelector("#edition").innerHTML="DAILY BRIEF · <b>"+formatDate(state.date)+"</b>";document.querySelector("#dateLine").textContent=formatDate(state.date)+"｜每日 AI 焦點快報";document.querySelector("#overviewText").textContent=overview[state.topic];renderPills();renderNews();renderTrack()}
-    Object.keys(newsByDate).sort().reverse().forEach(d=>picker.insertAdjacentHTML("beforeend",`<option value="${d}">${formatDate(d)}</option>`));picker.value=state.date;picker.onchange=()=>{state.date=picker.value;render()};
-    document.querySelector("#copyBtn").onclick=async()=>{const t=document.querySelector("#openingText").textContent+"\n"+[...document.querySelectorAll("#followupList li")].map(x=>x.innerText).join("\n");try{await navigator.clipboard.writeText(t)}catch(e){}const b=document.querySelector("#copyBtn");b.textContent="已複製";b.classList.add("copied");setTimeout(()=>{b.textContent="複製溝通建議";b.classList.remove("copied")},1500)};render();
+    function renderPills(){const topics=digest?.topics||[],audiences=digest?.audiences||[];topicPills.innerHTML=topics.map(x=>`<button class="pill ${state.topic===x?"active":""}" data-topic="${escapeHtml(x)}">${escapeHtml(topicLabels[x]||x)}</button>`).join("");audiencePills.innerHTML=audiences.map(x=>`<button class="pill ${state.audience===x?"active":""}" data-audience="${escapeHtml(x)}">${escapeHtml(x)}</button>`).join("");document.querySelectorAll("[data-topic]").forEach(b=>b.onclick=()=>{state.topic=b.dataset.topic;render()});document.querySelectorAll("[data-audience]").forEach(b=>b.onclick=()=>{state.audience=b.dataset.audience;render()})}
+    function renderNews(){const list=(digest?.events||[]).filter(n=>(state.topic==="全部"||n.topic===state.topic)&&(state.audience==="全部客群"||n.audiences.includes(state.audience)));document.querySelector("#newsList").innerHTML=list.length?list.map(n=>`<article class="news-card"><div class="news-meta"><span class="topic-tag ${tagClass(n.topic)}">${escapeHtml(topicLabels[n.topic]||n.topic)}</span><span class="news-time">${escapeHtml(n.time)}</span></div><h3>${escapeHtml(n.title)}</h3><p class="summary">${escapeHtml(n.summary)}</p><div class="keywords">${n.keywords.map(k=>`<span class="keyword">#${escapeHtml(k)}</span>`).join("")}</div><div class="sources">${n.sources.map(s=>`<a class="source-link" href="${escapeHtml(safeUrl(s.url))}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.publisher)} ↗</a>`).join("")}</div></article>`).join(""):'<div class="empty">此主題與客群在所選日期暫無新聞內容。</div>'}
+    function renderTrack(){const tracks=digest?.audience_talk_tracks||{},key=state.topic+"|"+state.audience,track=tracks[key]||tracks[state.topic+"|全部客群"]||tracks["全部|"+state.audience]||tracks["全部|全部客群"];document.querySelector("#comboLabel").innerHTML=`${escapeHtml(state.topic==="全部"?"全部主題":state.topic)}<span>×</span>${escapeHtml(state.audience)}`;document.querySelector("#openingText").textContent=track?"「"+track.opening+"」":"暫無對應建議";document.querySelector("#followupList").innerHTML=track?track.questions.map(q=>`<li><span class="q">Q</span><span>${escapeHtml(q)}</span></li>`).join(""):""}
+    function render(){if(!digest)return;document.querySelector("#edition").innerHTML="DAILY BRIEF · <b>"+formatDate(state.date)+"</b>";document.querySelector("#dateLine").textContent=formatDate(state.date)+"｜每日 AI 焦點快報";document.querySelector("#overviewText").textContent=digest.topic_overviews[state.topic]||digest.daily_overview;renderPills();renderNews();renderTrack()}
+    async function loadDate(date){document.querySelector("#newsList").innerHTML='<div class="empty">正在載入新聞資料…</div>';try{const response=await fetch(`data/${date}.json`,{cache:"no-store"});if(!response.ok)throw new Error(`HTTP ${response.status}`);digest=await response.json();state.date=date;if(!digest.topics.includes(state.topic))state.topic="全部";if(!digest.audiences.includes(state.audience))state.audience="全部客群";render()}catch(error){digest=null;document.querySelector("#overviewText").textContent="資料暫時無法載入。";document.querySelector("#newsList").innerHTML=`<div class="empty">無法載入 ${escapeHtml(date)} 的新聞資料。請透過 GitHub Pages 或本機網頁伺服器開啟。<br>${escapeHtml(error.message)}</div>`}}
+    async function loadIndex(){try{const response=await fetch("data/index.json",{cache:"no-store"});if(!response.ok)throw new Error(`HTTP ${response.status}`);const index=await response.json();picker.innerHTML=index.dates.map(date=>`<option value="${escapeHtml(date)}">${formatDate(date)}</option>`).join("");picker.value=index.latest;picker.onchange=()=>loadDate(picker.value);await loadDate(index.latest)}catch(error){document.querySelector("#newsList").innerHTML=`<div class="empty">無法讀取新聞日期清單。請確認使用網頁伺服器開啟。<br>${escapeHtml(error.message)}</div>`}}
+    document.querySelector("#copyBtn").onclick=async()=>{const t=document.querySelector("#openingText").textContent+"\n"+[...document.querySelectorAll("#followupList li")].map(x=>x.innerText).join("\n");try{await navigator.clipboard.writeText(t)}catch{}const b=document.querySelector("#copyBtn");b.textContent="已複製";b.classList.add("copied");setTimeout(()=>{b.textContent="複製溝通建議";b.classList.remove("copied")},1500)};
+    loadIndex();
   </script>
 </body>
 </html>
