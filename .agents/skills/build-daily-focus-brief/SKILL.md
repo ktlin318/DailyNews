@@ -23,7 +23,7 @@ Read these before producing content:
 3. Record the original title, publisher, canonical URL, and publication time before summarizing.
 4. Group URLs describing the same event. Keep one event and attach every relevant source.
 5. Rank events by breadth of impact, recency, supported-topic relevance, and usefulness for customer conversations. Do not rank promotional language as market importance.
-6. Assign exactly one primary topic from `國際`, `台股`, `ETF`, or `AI`. Add two to five keywords and relevant audiences.
+6. Assign exactly one primary topic from `國際`, `台股`, `ETF`, `AI`, or `生活`. Add two to five keywords and relevant audiences.
 7. Write a neutral title, concise summary, and separate impact statement. Preserve the distinction between reported facts and interpretation.
 8. Generate one overview for `全部` and every supported topic. If no qualified event exists, state that; do not fabricate a trend.
 9. Generate conversation suggestions for supported topic and audience combinations. Frame them as questions or openings, never personalized investment recommendations.
