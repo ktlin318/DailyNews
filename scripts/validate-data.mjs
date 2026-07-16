@@ -3,7 +3,7 @@ import { resolve } from "node:path";
 
 const root = resolve(import.meta.dirname, "..");
 const dataDir = resolve(root, "data");
-const allowedTopics = ["全部", "國際", "台股", "ETF", "AI"];
+const allowedTopics = ["全部", "國際", "台股", "ETF", "AI", "生活"];
 const eventTopics = allowedTopics.slice(1);
 const allowedAudiences = ["全部客群", "高資產", "外幣交易", "海外消費"];
 const allowedSourceTypes = ["primary", "reporting", "issuer"];
