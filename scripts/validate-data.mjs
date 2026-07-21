@@ -3,7 +3,7 @@ import { resolve } from "node:path";
 
 const root = resolve(import.meta.dirname, "..");
 const dataDir = resolve(root, "data");
-const allowedTopics = ["全部", "投資理財", "貸款", "新鮮事", "AI"];
+const allowedTopics = ["全部", "投資理財", "貸款", "信用卡", "新鮮事", "AI"];
 const eventTopics = allowedTopics.slice(1);
 const allowedAudiences = ["高資產", "定存", "頂級卡", "貸款"];
 const allowedSourceTypes = ["primary", "reporting", "issuer"];
@@ -35,11 +35,23 @@ function validateDigest(file, data) {
     check(!ids.has(event.event_id), file, `${base}.event_id`, "must be unique");
     ids.add(event.event_id);
     check(eventTopics.includes(event.topic), file, `${base}.topic`, "is unsupported");
-    for (const field of ["time", "title", "summary", "impact"]) check(isString(event[field]), file, `${base}.${field}`, "is required");
+    for (const field of ["time", "title", "summary", "impact", "classification_reason"]) check(isString(event[field]), file, `${base}.${field}`, "is required");
     check(Array.isArray(event.keywords) && event.keywords.length >= 2 && event.keywords.length <= 5, file, `${base}.keywords`, "must contain 2 to 5 items");
     check(Array.isArray(event.audiences) && event.audiences.length > 0 && event.audiences.every((x) => allowedAudiences.includes(x)), file, `${base}.audiences`, "contains an unsupported value");
     check(Array.isArray(event.sources) && event.sources.length > 0, file, `${base}.sources`, "must contain at least one source");
     check(Array.isArray(event.evidence_notes) && event.evidence_notes.length > 0, file, `${base}.evidence_notes`, "must describe factual support");
+
+    if (event.focus_score !== undefined) {
+      check(Number.isInteger(event.focus_score) && event.focus_score >= 0 && event.focus_score <= 100, file, `${base}.focus_score`, "must be an integer from 0 to 100");
+      const breakdown = event.score_breakdown || {};
+      const parts = [breakdown.importance, breakdown.cross_source_coverage, breakdown.homepage_or_popular, breakdown.audience_relevance, breakdown.recency];
+      check(parts.every(Number.isInteger), file, `${base}.score_breakdown`, "must contain five integer scores");
+      check(parts.reduce((sum, value) => sum + (value || 0), 0) === event.focus_score, file, `${base}.focus_score`, "must equal the score breakdown total");
+      check(/^\d{4}-\d{2}-\d{2}$/.test(event.published_date), file, `${base}.published_date`, "must use YYYY-MM-DD");
+      const earliest = [...(event.sources || [])].map((source) => source.published_at).filter(isString).sort()[0]?.slice(0, 10);
+      check(event.published_date === earliest, file, `${base}.published_date`, "must use the earliest source date");
+      check(isString(event.selection_reason), file, `${base}.selection_reason`, "is required when focus_score is present");
+    }
 
     for (const [sourceIndex, source] of (event.sources || []).entries()) {
       const sourcePath = `${base}.sources[${sourceIndex}]`;
@@ -47,6 +59,12 @@ function validateDigest(file, data) {
       check(/^https:\/\//.test(source.url), file, `${sourcePath}.url`, "must be HTTPS");
       check(allowedSourceTypes.includes(source.source_type), file, `${sourcePath}.source_type`, "is unsupported");
     }
+  }
+
+  if (file === "2026-07-16.json") {
+    for (const topic of eventTopics) check(data.events.filter((event) => event.topic === topic).length >= 5, file, `events.${topic}`, "must retain at least 5 unique events");
+    const scores = data.events.map((event) => event.focus_score);
+    check(scores.every((score, index) => index === 0 || scores[index - 1] >= score), file, "events", "must be sorted by focus_score descending");
   }
 
   check(data.audience_talk_tracks && typeof data.audience_talk_tracks === "object", file, "audience_talk_tracks", "is required");
