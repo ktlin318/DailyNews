@@ -1,0 +1,2666 @@
+{
+  "schema_version": "1.1.0",
+  "date": "2026-07-16",
+  "timezone": "Asia/Taipei",
+  "generated_at": "2026-07-21T16:30:00+08:00",
+  "source_window": {
+    "start": "2026-07-15T00:00:00+08:00",
+    "end": "2026-07-16T08:00:00+08:00"
+  },
+  "daily_overview": "7月15日至16日早間的焦點橫跨台股與海外市場反彈、金融業獲利與信用政策、旅遊及食安等生活議題，以及AI代理治理、資料安全與基礎設施限制。各主題保留15個不同事件，並依可追溯的焦點評分排序。",
+  "topic_overviews": {
+    "全部": "台股與美股在通膨訊號降溫下反彈，金融機構獲利、房貸政策與支付消費同步受到關注；生活面聚焦食安、旅遊與公共議題，AI則從代理平台延伸至身分驗證、資料治理及硬體供應鏈。",
+    "投資理財": "台股7月15日上漲893.64點，三大法人合計買超201.92億元；基金與金融業自結數字亮眼，但仍須區分歷史績效、FVOCI與正式財報。",
+    "貸款": "青安3.0方向在截止時間仍未定案；企業端有120億元聯貸與銀行海外法金布局，中國上半年新增人民幣貸款10.72兆元。",
+    "信用卡": "五大發卡行6月簽帳金額合計6,088億元，稅款、旅遊與一般消費帶動多家銀行刷卡量成長；回饋與分期條件仍須回到各銀行正式規則。",
+    "新鮮事": "單人跟團配房規則將調整，鹿林山長期監測與紫斑蝶遷徙帶出生態議題，另有司法案件與青年活動資訊。",
+    "AI": "企業AI代理進入平台化階段，但程式碼上傳、影子AI、機器人流量、能源與環境許可等治理問題也同步升高。"
+  },
+  "topics": [
+    "全部",
+    "投資理財",
+    "貸款",
+    "信用卡",
+    "新鮮事",
+    "AI"
+  ],
+  "audiences": [
+    "高資產",
+    "定存",
+    "頂級卡",
+    "貸款"
+  ],
+  "events": [
+    {
+      "event_id": "2026-07-16-five-bank-card-spend",
+      "topic": "信用卡",
+      "time": "19:30",
+      "title": "五大發卡行6月刷卡金額合計6,088億元",
+      "summary": "鉅亨網與經濟日報均報導，五大發卡銀行6月簽帳金額合計6,088億元、年增117%，主要受到所得稅入帳與消費帶動。",
+      "impact": "刷卡額創高反映支付與稅款入帳，循環信用與分期成本仍須個別評估。",
+      "keywords": [
+        "信用卡",
+        "簽帳金額",
+        "銀行"
+      ],
+      "audiences": [
+        "頂級卡",
+        "貸款"
+      ],
+      "sources": [
+        {
+          "publisher": "鉅亨網",
+          "title": "稅款遞延入帳！五大行6月狂刷6088億元創歷史新高 玉山銀首登頂奪刷卡王",
+          "url": "https://news.cnyes.com/news/id/6535702",
+          "published_at": "2026-07-15T19:30:00+08:00",
+          "source_type": "reporting"
+        },
+        {
+          "publisher": "經濟日報",
+          "title": "五大行刷卡額創高",
+          "url": "https://money.udn.com/money/story/122376/9630341",
+          "published_at": "2026-07-16T01:30:45+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 73,
+      "score_breakdown": {
+        "importance": 30,
+        "cross_source_coverage": 18,
+        "homepage_or_popular": 10,
+        "audience_relevance": 10,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以信用卡簽帳、發卡、回饋、支付場景或卡友權益為主要內容；不涉及借款核貸。"
+    },
+    {
+      "event_id": "2026-07-16-food-oil-recall",
+      "topic": "新鮮事",
+      "time": "19:40",
+      "title": "問題油波及業者增至1,006家，回收逾7,600公噸",
+      "summary": "食藥署7月15日公布，問題油下游波及1,006家業者，相關批次下架與預防性下架合計7,682.2公噸。",
+      "impact": "預防性下架不代表所有產品都有安全疑慮，應依食藥署批號與公告確認。",
+      "keywords": [
+        "食品安全",
+        "問題油",
+        "下架"
+      ],
+      "audiences": [
+        "高資產",
+        "定存",
+        "頂級卡"
+      ],
+      "sources": [
+        {
+          "publisher": "公視新聞網",
+          "title": "問題油受波及業者增至1006家 累計回收逾7600公噸",
+          "url": "https://news.pts.org.tw/article/817817",
+          "published_at": "2026-07-15T19:40:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 71,
+      "score_breakdown": {
+        "importance": 38,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 10,
+        "audience_relevance": 10,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以生活、消費、旅遊、社會、政策或一般公共議題為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-tw-market-rebound",
+      "topic": "投資理財",
+      "time": "15:03",
+      "title": "台股強彈893.64點，三大法人合計買超201.92億元",
+      "summary": "台股7月15日收45,631.59點、上漲893.64點，成交量9,840.81億元並站回5日線。三大法人合計買超201.92億元，但外資仍賣超14.15億元、連續第9日賣超。",
+      "impact": "指數與本土法人買盤轉強，但外資動向仍分歧，短線不宜只依單日漲幅判斷趨勢。",
+      "keywords": [
+        "台股",
+        "三大法人",
+        "外資",
+        "成交量"
+      ],
+      "audiences": [
+        "高資產",
+        "定存",
+        "頂級卡"
+      ],
+      "sources": [
+        {
+          "publisher": "鉅亨網",
+          "title": "台股反攻收復5日線 三大法人買超201.92億元",
+          "url": "https://news.cnyes.com/news/id/6535633",
+          "published_at": "2026-07-15T15:03:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "來源列明收盤45,631.59點、上漲893.64點、成交量9,840.81億元及三大法人買超201.92億元。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 71,
+      "score_breakdown": {
+        "importance": 38,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 10,
+        "audience_relevance": 10,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以市場、投資商品、資產配置或金融機構投資資訊為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-supreme-syndicated-loan",
+      "topic": "貸款",
+      "time": "20:05",
+      "title": "至上電子完成120億元聯貸，兩家媒體交叉報導",
+      "summary": "至上電子完成等值新台幣120億元聯合授信，由合庫統籌、第一銀行共同主辦；鉅亨網報導最終超額募集1.95倍。",
+      "impact": "大型聯貸反映銀行團對半導體通路企業融資需求的參與度。",
+      "keywords": [
+        "聯貸",
+        "至上電子",
+        "合庫",
+        "半導體"
+      ],
+      "audiences": [
+        "貸款",
+        "高資產"
+      ],
+      "sources": [
+        {
+          "publisher": "鉅亨網",
+          "title": "公股銀挺半導體通路龍頭！合庫銀統籌至上120億聯貸 超募1.95倍",
+          "url": "https://news.cnyes.com/news/id/6535484",
+          "published_at": "2026-07-15T20:05:00+08:00",
+          "source_type": "reporting"
+        },
+        {
+          "publisher": "經濟日報",
+          "title": "合庫銀行主辦至上電子120億元聯貸簽約 超額募集1.95倍",
+          "url": "https://money.udn.com/money/story/5613/9629806",
+          "published_at": "2026-07-15T17:50:46+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "兩個來源均報導120億元聯貸；1.95倍採鉅亨網所載數字。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 63,
+      "score_breakdown": {
+        "importance": 31,
+        "cross_source_coverage": 18,
+        "homepage_or_popular": 0,
+        "audience_relevance": 9,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以房貸、信貸、授信、企業融資、借款成本、還款或槓桿風險為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-fubon-sydney-branch",
+      "topic": "貸款",
+      "time": "11:08",
+      "title": "北富銀雪梨分行預計第3季開業，主攻法金與跨境融資",
+      "summary": "北富銀表示已取得澳洲營業執照，雪梨分行預計第3季開業，重點包括聯貸、法人金融與跨境融資。",
+      "impact": "台資銀行海外法金服務擴張，可支援企業跨境布局；實際開業仍待後續確認。",
+      "keywords": [
+        "北富銀",
+        "雪梨",
+        "法人金融",
+        "跨境融資"
+      ],
+      "audiences": [
+        "貸款",
+        "高資產"
+      ],
+      "sources": [
+        {
+          "publisher": "鉅亨網",
+          "title": "告捷！北富銀獲澳洲金融監理署核發營業許可 雪梨分行Q3開業",
+          "url": "https://news.cnyes.com/news/id/6535313",
+          "published_at": "2026-07-15T10:33:00+08:00",
+          "source_type": "reporting"
+        },
+        {
+          "publisher": "經濟日報",
+          "title": "北富銀進軍南半球 雪梨分行第3季開業主攻法金業務",
+          "url": "https://money.udn.com/money/story/5612/9628679",
+          "published_at": "2026-07-15T11:08:33+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "7月13日取得執照與第3季開業均引述北富銀說法。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 61,
+      "score_breakdown": {
+        "importance": 29,
+        "cross_source_coverage": 18,
+        "homepage_or_popular": 0,
+        "audience_relevance": 9,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以房貸、信貸、授信、企業融資、借款成本、還款或槓桿風險為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-grok-build-data-upload",
+      "topic": "AI",
+      "time": "07/15",
+      "title": "研究揭露Grok Build上傳完整程式庫，業者後續調整",
+      "summary": "研究人員指出Grok Build CLI 0.2.93版會上傳完整Git儲存庫與歷史；事件公開後，SpaceXAI回應並提供零資料保留選項、停用完整上傳機制。",
+      "impact": "導入AI開發工具前需檢查遙測、資料保留、第三方儲存與退出設定。",
+      "keywords": [
+        "Grok Build",
+        "程式碼隱私",
+        "資料保留",
+        "AI治理"
+      ],
+      "audiences": [
+        "高資產",
+        "頂級卡",
+        "貸款"
+      ],
+      "sources": [
+        {
+          "publisher": "iThome",
+          "title": "Grok Build被發現偷偷把用戶整個程式庫上傳到雲端，馬斯克承諾將刪除",
+          "url": "https://www.ithome.com.tw/news/177331",
+          "published_at": "2026-07-15",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "研究發現與公司回應皆由iThome整理；後續版本行為仍可能變更。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 61,
+      "score_breakdown": {
+        "importance": 38,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 10,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以AI技術、產品、產業、治理或社會影響為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-youth-mortgage-plan",
+      "topic": "貸款",
+      "time": "18:30",
+      "title": "青安3.0擬增年齡、所得與房價門檻",
+      "summary": "截至7月15日晚間，青安3.0規劃包括申貸人未滿50歲、原則額度1,000萬元、年所得200萬元排富、最高5年寬限期及房價上限，仍待行政院會公布最終方案。",
+      "impact": "資格與額度可能改變首購族資金安排，申請前須以正式公告為準。",
+      "keywords": [
+        "青安3.0",
+        "首購",
+        "房貸",
+        "政策未定"
+      ],
+      "audiences": [
+        "貸款",
+        "定存",
+        "高資產"
+      ],
+      "sources": [
+        {
+          "publisher": "經濟日報",
+          "title": "青安3.0擬限未滿50歲申貸、寬限期5年 婚育家庭可望調高上限",
+          "url": "https://money.udn.com/money/story/7307/9629875",
+          "published_at": "2026-07-15T18:30:08+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "來源明確使用『擬』與『規劃』，並指出最終方案待行政院會公布。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 61,
+      "score_breakdown": {
+        "importance": 38,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 10,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以房貸、信貸、授信、企業融資、借款成本、還款或槓桿風險為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-airport-drug-case",
+      "topic": "新鮮事",
+      "time": "12:34",
+      "title": "機場查獲疑似人體運毒，警方稱取出101顆海洛因",
+      "summary": "警方在桃園機場攔查一名外籍男子，經醫療協助歷時5天取出101顆、約1.4公斤海洛因；法院已裁定羈押禁見。",
+      "impact": "案件進入司法程序，資訊應限於查緝與程序事實，不預斷有罪。",
+      "keywords": [
+        "機場",
+        "毒品查緝",
+        "司法程序",
+        "海洛因"
+      ],
+      "audiences": [
+        "頂級卡",
+        "高資產"
+      ],
+      "sources": [
+        {
+          "publisher": "公視新聞網",
+          "title": "法籍男吞101顆海洛因丸闖關 耗時5天排出1.4公斤毒品",
+          "url": "https://news.pts.org.tw/article/817712",
+          "published_at": "2026-07-15T12:34:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "數量、重量與程序狀態依公視引述警方及司法資訊；未作有罪判定。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 59,
+      "score_breakdown": {
+        "importance": 30,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 10,
+        "audience_relevance": 6,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以生活、消費、旅遊、社會、政策或一般公共議題為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-new-york-data-center-pause",
+      "topic": "AI",
+      "time": "07/15",
+      "title": "紐約州暫緩特定大型資料中心環境許可",
+      "summary": "紐約州暫緩核發特定50MW以上大型資料中心的州級環境許可，最長預計1年，以完成統一環境影響評估。",
+      "impact": "AI基礎設施擴張除算力外，也受電力、用水、環境與社區成本約束。",
+      "keywords": [
+        "資料中心",
+        "紐約州",
+        "AI基礎設施",
+        "環境許可"
+      ],
+      "audiences": [
+        "高資產",
+        "頂級卡",
+        "貸款"
+      ],
+      "sources": [
+        {
+          "publisher": "iThome",
+          "title": "紐約州發出全美首個暫停資料中心進駐令",
+          "url": "https://www.ithome.com.tw/news/177330",
+          "published_at": "2026-07-15",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "50MW、最長1年及排除用途均來自iThome引述紐約州行政命令。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 59,
+      "score_breakdown": {
+        "importance": 37,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 9,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以AI技術、產品、產業、治理或社會影響為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-aws-agent-platform",
+      "topic": "AI",
+      "time": "07/15",
+      "title": "AWS把企業AI重心轉向代理開發、治理與落地",
+      "summary": "AWS在Summit Taipei介紹涵蓋開發、知識管理、維運與資安治理的AI代理平台能力，並分享與OpenAI的企業部署合作。",
+      "impact": "企業評估焦點正由單一模型轉向資料、權限、工具串接與持續治理。",
+      "keywords": [
+        "AWS",
+        "AI代理",
+        "企業AI",
+        "治理"
+      ],
+      "audiences": [
+        "高資產",
+        "頂級卡",
+        "貸款"
+      ],
+      "sources": [
+        {
+          "publisher": "iThome",
+          "title": "AWS宣布2026進入Agent AI元年，打造從開發、資安到知識管理的企業AI代理平臺",
+          "url": "https://www.ithome.com.tw/news/177348",
+          "published_at": "2026-07-15",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "產品定位與案例主要來自AWS及OpenAI活動說法，iThome頁面僅標示日期。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 58,
+      "score_breakdown": {
+        "importance": 35,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 10,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以AI技術、產品、產業、治理或社會影響為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-korea-margin-risk",
+      "topic": "貸款",
+      "time": "14:05",
+      "title": "韓股劇烈波動引發融資追繳與強制平倉風險",
+      "summary": "鉅亨網報導，韓股劇烈下跌期間出現融資追繳與強制平倉，7月1日至10日強平金額達4,258億韓元。",
+      "impact": "高槓桿會放大跌勢與負債風險，借貸投資前應先確認追繳與最大損失。",
+      "keywords": [
+        "融資",
+        "槓桿",
+        "強制平倉"
+      ],
+      "audiences": [
+        "貸款",
+        "高資產"
+      ],
+      "sources": [
+        {
+          "publisher": "鉅亨網",
+          "title": "韓股「槓桿絞肉機」啟動 最多46萬戶慘遭強平、本金歸零",
+          "url": "https://news.cnyes.com/news/id/6535073",
+          "published_at": "2026-07-15T14:05:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 58,
+      "score_breakdown": {
+        "importance": 35,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 10,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以房貸、信貸、授信、企業融資、借款成本、還款或槓桿風險為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-fido-agent-commerce",
+      "topic": "AI",
+      "time": "日期",
+      "title": "FIDO啟動AI代理交易驗證與支付標準制定",
+      "summary": "FIDO聯盟成立相關工作小組，推動AI代理驗證與代理支付標準；OpenAI亦加入理事會。",
+      "impact": "自主代理進入交易場景前，身分、授權、不可否認性與人工確認機制必須先建立。",
+      "keywords": [
+        "FIDO",
+        "代理商務",
+        "支付"
+      ],
+      "audiences": [
+        "頂級卡",
+        "高資產"
+      ],
+      "sources": [
+        {
+          "publisher": "iThome",
+          "title": "聚焦自主AI代理交易，FIDO聯盟啟動Agentic Commerce標準制定，OpenAI亦加入理事會推動AI代理驗證",
+          "url": "https://www.ithome.com.tw/news/177321",
+          "published_at": "2026-07-15",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 57,
+      "score_breakdown": {
+        "importance": 35,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 10,
+        "recency": 4
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以AI技術、產品、產業、治理或社會影響為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-china-credit-data",
+      "topic": "貸款",
+      "time": "16:11",
+      "title": "中國上半年新增人民幣貸款10.72兆元",
+      "summary": "中國人民銀行公布上半年新增人民幣貸款10.72兆元；6月新發企業貸款加權平均利率約3%，個人住房貸款約3.1%。",
+      "impact": "總體融資數據反映資金環境，但不能直接等同個別借款人的核貸條件。",
+      "keywords": [
+        "人民幣貸款",
+        "企業融資",
+        "房貸利率",
+        "中國央行"
+      ],
+      "audiences": [
+        "貸款",
+        "高資產",
+        "定存"
+      ],
+      "sources": [
+        {
+          "publisher": "經濟日報",
+          "title": "大陸央行：上半年人民幣貸款增10.72兆元 M2年增8%",
+          "url": "https://money.udn.com/money/story/5603/9629578",
+          "published_at": "2026-07-15T16:11:45+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "貸款增量與利率均為報導引述中國人民銀行公布資料。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 56,
+      "score_breakdown": {
+        "importance": 34,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 9,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以房貸、信貸、授信、企業融資、借款成本、還款或槓桿風險為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-financial-holdings-h1",
+      "topic": "投資理財",
+      "time": "18:01",
+      "title": "13家上市金控上半年自結獲利合計4,408.75億元",
+      "summary": "鉅亨網整理13家上市金控自結資料，上半年合計稅後純益4,408.75億元；富邦金累計獲利與EPS居前。",
+      "impact": "自結獲利反映金融股近期營運，但仍需區分一次性項目、FVOCI與正式財報。",
+      "keywords": [
+        "金控",
+        "自結獲利",
+        "金融股"
+      ],
+      "audiences": [
+        "高資產",
+        "定存"
+      ],
+      "sources": [
+        {
+          "publisher": "鉅亨網",
+          "title": "史上最強上半年！13家金控狂賺4408億元 銀保證全面開花",
+          "url": "https://news.cnyes.com/news/id/6535796",
+          "published_at": "2026-07-15T18:01:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 56,
+      "score_breakdown": {
+        "importance": 34,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 9,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以市場、投資商品、資產配置或金融機構投資資訊為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-old-pension-voluntary",
+      "topic": "投資理財",
+      "time": "21:35",
+      "title": "純舊制勞工7月17日起可自願提繳退休金",
+      "summary": "勞動部修正施行細則，純舊制勞工可在每月工資6%範圍內自願提繳，方案自7月17日生效。",
+      "impact": "新制提供退休準備選項，實際稅務與提繳安排仍應依正式規定評估。",
+      "keywords": [
+        "勞退",
+        "自願提繳",
+        "退休金"
+      ],
+      "audiences": [
+        "高資產",
+        "定存"
+      ],
+      "sources": [
+        {
+          "publisher": "鉅亨網",
+          "title": "舊制勞工也能自提6％到退休金專戶領「分紅」囉！17日正式上路",
+          "url": "https://news.cnyes.com/news/id/6536076",
+          "published_at": "2026-07-15T21:35:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 56,
+      "score_breakdown": {
+        "importance": 33,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 10,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以市場、投資商品、資產配置或金融機構投資資訊為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-apple-ai-china",
+      "topic": "AI",
+      "time": "20:00",
+      "title": "Apple Intelligence完成中國生成式AI服務登記",
+      "summary": "鉅亨網報導，中國國家網信辦公布的名單納入Apple Intelligence；在中國提供服務仍涉及本地模型與監管安排。",
+      "impact": "完成登記降低部分監管障礙，但正式功能、上市時間與合作範圍仍待公司公告。",
+      "keywords": [
+        "Apple Intelligence",
+        "中國",
+        "AI監管"
+      ],
+      "audiences": [
+        "高資產",
+        "頂級卡"
+      ],
+      "sources": [
+        {
+          "publisher": "鉅亨網",
+          "title": "等了兩年終於過關！蘋果AI獲中國放行 阿里通義千問助陣",
+          "url": "https://news.cnyes.com/news/id/6535948",
+          "published_at": "2026-07-15T20:00:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 55,
+      "score_breakdown": {
+        "importance": 33,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 9,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以AI技術、產品、產業、治理或社會影響為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-deepseek-fundraising",
+      "topic": "AI",
+      "time": "21:00",
+      "title": "DeepSeek傳尋求最高人民幣500億元新一輪募資",
+      "summary": "鉅亨網引述路透報導，DeepSeek據傳規劃新一輪募資，目標估值約人民幣5,000億元，並考慮赴科創板上市；計畫仍在初期。",
+      "impact": "AI基礎設施資金需求升高，但募資金額、估值與上市時程尚未定案。",
+      "keywords": [
+        "DeepSeek",
+        "募資",
+        "IPO"
+      ],
+      "audiences": [
+        "貸款",
+        "高資產"
+      ],
+      "sources": [
+        {
+          "publisher": "鉅亨網",
+          "title": "AI太燒錢？DeepSeek傳再募人民幣500億元、籌備科創板IPO",
+          "url": "https://news.cnyes.com/news/id/6536002",
+          "published_at": "2026-07-15T21:00:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "募資、估值與IPO資訊均為報導引述知情人士，來源明確指出計畫仍在初期。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 55,
+      "score_breakdown": {
+        "importance": 33,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 9,
+        "recency": 5
+      },
+      "selection_reason": "大型AI新創募資與資本支出具產業影響；未確認首頁或熱門訊號不給分。",
+      "classification_reason": "主體為AI企業股權募資與潛在上市計畫，不涉及借款、授信或還款義務，歸入AI。"
+    },
+    {
+      "event_id": "2026-07-16-aws-loom",
+      "topic": "AI",
+      "time": "日期",
+      "title": "AWS開源Loom企業AI代理管理平台",
+      "summary": "iThome報導，AWS開源Loom，整合AI代理部署、記憶、身分、權限、人工核准及工具管理。",
+      "impact": "企業部署代理時，權限委派、稽核與敏感操作核准將成為必要治理層。",
+      "keywords": [
+        "AWS",
+        "AI代理",
+        "權限治理"
+      ],
+      "audiences": [
+        "高資產",
+        "貸款"
+      ],
+      "sources": [
+        {
+          "publisher": "iThome",
+          "title": "AWS開源企業AI代理平臺Loom，整合身分委派、權限控管與人工核准",
+          "url": "https://www.ithome.com.tw/news/177318",
+          "published_at": "2026-07-15",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 53,
+      "score_breakdown": {
+        "importance": 32,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 9,
+        "recency": 4
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以AI技術、產品、產業、治理或社會影響為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-fubon-h1-results",
+      "topic": "投資理財",
+      "time": "17:01",
+      "title": "富邦金上半年自結稅後純益973.4億元",
+      "summary": "富邦金前6月自結稅後純益973.4億元、EPS 6.67元；加計FVOCI權益工具稅後處分利益後合計1,884.1億元。",
+      "impact": "獲利動能強，但FVOCI與損益表認列不同，評估時應分開比較。",
+      "keywords": [
+        "富邦金",
+        "自結獲利",
+        "FVOCI",
+        "EPS"
+      ],
+      "audiences": [
+        "高資產",
+        "定存"
+      ],
+      "sources": [
+        {
+          "publisher": "鉅亨網",
+          "title": "富邦金奪上半年金控獲利王！加計FVOCI股票狂賺1884億元 超越歷年全年",
+          "url": "https://news.cnyes.com/news/id/6535748",
+          "published_at": "2026-07-15T17:01:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "973.4億元為自結稅後純益；1,884.1億元為加計FVOCI權益工具稅後處分利益後數字。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 53,
+      "score_breakdown": {
+        "importance": 32,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 8,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以市場、投資商品、資產配置或金融機構投資資訊為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-solo-tour-room-rule",
+      "topic": "新鮮事",
+      "time": "17:21",
+      "title": "9月起部分短程團體旅遊取消單人併房",
+      "summary": "可樂與雄獅宣布，9月起部分短程團體行程的單數報名者須使用單人房並補差價，不再安排與領隊或其他旅客併房。",
+      "impact": "單人旅客的團費與住宿安排將改變，既有訂單是否適用應查業者公告。",
+      "keywords": [
+        "團體旅遊",
+        "單人房",
+        "旅遊費用",
+        "9月"
+      ],
+      "audiences": [
+        "頂級卡",
+        "高資產",
+        "定存"
+      ],
+      "sources": [
+        {
+          "publisher": "經濟日報",
+          "title": "9月起可樂雄獅旅遊短程線 單人跟團須補單人房差價",
+          "url": "https://money.udn.com/money/story/5612/9629754",
+          "published_at": "2026-07-15T17:21:28+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "9月起與適用路線依兩家旅行業者公告；公告前完成報名者的處理需分別確認。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 53,
+      "score_breakdown": {
+        "importance": 31,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 9,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以生活、消費、旅遊、社會、政策或一般公共議題為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-cloudflare-precursor",
+      "topic": "AI",
+      "time": "07/15",
+      "title": "Cloudflare以整段工作階段行為辨識AI代理流量",
+      "summary": "Precursor分析滑鼠、鍵盤活動時間與節奏、焦點變化等訊號，區分真人、機器人與AI代理，並納入既有Bot Score與安全規則。",
+      "impact": "網站防護轉向連續行為分析，導入時也需評估隱私告知與誤判。",
+      "keywords": [
+        "Cloudflare",
+        "AI代理",
+        "機器人流量",
+        "隱私"
+      ],
+      "audiences": [
+        "高資產",
+        "頂級卡",
+        "貸款"
+      ],
+      "sources": [
+        {
+          "publisher": "iThome",
+          "title": "Cloudflare推出Precursor，以網站工作階段行為辨識AI代理與機器人流量",
+          "url": "https://www.ithome.com.tw/news/177325",
+          "published_at": "2026-07-15",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "功能與不記錄實際按鍵內容的說明均來自Cloudflare，由iThome報導。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 52,
+      "score_breakdown": {
+        "importance": 30,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 9,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以AI技術、產品、產業、治理或社會影響為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-k8s-aibom",
+      "topic": "AI",
+      "time": "07/15",
+      "title": "Google Cloud開源工具盤點Kubernetes中的AI工作負載",
+      "summary": "k8s-aibom可持續盤點叢集AI工作負載並產生CycloneDX 1.6格式的ML-BOM，協助找出影子AI與版本不明元件。",
+      "impact": "AI資產清冊有助治理與稽核，但專案仍為alpha且非正式支援產品。",
+      "keywords": [
+        "k8s-aibom",
+        "Kubernetes",
+        "影子AI",
+        "ML-BOM"
+      ],
+      "audiences": [
+        "高資產",
+        "頂級卡",
+        "貸款"
+      ],
+      "sources": [
+        {
+          "publisher": "iThome",
+          "title": "Google Cloud開源k8s-aibom專案，協助盤點Kubernetes叢集內的AI工作負載",
+          "url": "https://www.ithome.com.tw/news/177327",
+          "published_at": "2026-07-15",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "Apache 2.0、CycloneDX 1.6、alpha與非正式支援狀態均載於來源。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 52,
+      "score_breakdown": {
+        "importance": 30,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 9,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以AI技術、產品、產業、治理或社會影響為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-private-kindergarten-case",
+      "topic": "新鮮事",
+      "time": "12:34",
+      "title": "北市私立幼兒園遭家長指控不當管教",
+      "summary": "多名家長指控一所私立幼兒園疑涉不當管教；台北市教育局表示已查到2名老師，其中第2名也已停職。",
+      "impact": "案件仍在調查，摘要不對指控真偽或責任作最終判定。",
+      "keywords": [
+        "幼兒園",
+        "不當管教",
+        "教育局"
+      ],
+      "audiences": [
+        "高資產",
+        "定存"
+      ],
+      "sources": [
+        {
+          "publisher": "公視新聞網",
+          "title": "北市私立幼兒園涉不當管教 家長控教育局處理消極",
+          "url": "https://news.pts.org.tw/article/817707",
+          "published_at": "2026-07-15T12:34:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 52,
+      "score_breakdown": {
+        "importance": 31,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 8,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以生活、消費、旅遊、社會、政策或一般公共議題為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-travel-insurance-rule",
+      "topic": "新鮮事",
+      "time": "01:44",
+      "title": "旅遊不便險理賠疑義將研議統一原則",
+      "summary": "金管會表示，旅程更改保險的條款如有疑義，應依保險法朝有利被保險人方向解釋，並要求產險公會研議統一原則。",
+      "impact": "海外行程受阻時應保留支出與退費證明，實際理賠仍依契約審核。",
+      "keywords": [
+        "旅遊保險",
+        "海外旅遊",
+        "理賠"
+      ],
+      "audiences": [
+        "頂級卡",
+        "高資產"
+      ],
+      "sources": [
+        {
+          "publisher": "經濟日報",
+          "title": "旅遊不便險新制爭議有解 金管會：疑義應朝有利保戶方向解釋",
+          "url": "https://money.udn.com/money/story/122377/9627959",
+          "published_at": "2026-07-15T01:44:16+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 52,
+      "score_breakdown": {
+        "importance": 31,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 9,
+        "recency": 4
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以生活、消費、旅遊、社會、政策或一般公共議題為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-us-stocks-open",
+      "topic": "投資理財",
+      "time": "21:51",
+      "title": "美國通膨數據降溫，美股7月15日早盤走高",
+      "summary": "鉅亨網報導，美國最新通膨數據低於預期，美股主要指數7月15日早盤上漲，市場下調聯準會升息押注。",
+      "impact": "盤中數據只代表截稿時點，仍須與收盤及後續利率資訊分開解讀。",
+      "keywords": [
+        "美股",
+        "通膨",
+        "聯準會"
+      ],
+      "audiences": [
+        "高資產",
+        "定存"
+      ],
+      "sources": [
+        {
+          "publisher": "鉅亨網",
+          "title": "〈美股早盤〉通膨降溫削弱Fed升息押注 主要指數開高、科技股領漲",
+          "url": "https://news.cnyes.com/news/id/6535945",
+          "published_at": "2026-07-15T21:51:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 52,
+      "score_breakdown": {
+        "importance": 32,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 8,
+        "recency": 4
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以市場、投資商品、資產配置或金融機構投資資訊為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-deepmind-standards",
+      "topic": "AI",
+      "time": "日期",
+      "title": "DeepMind執行長提議建立AI標準組織",
+      "summary": "iThome報導，Google DeepMind執行長Demis Hassabis提議建立類似國際標準組織的AI協調機制。",
+      "impact": "跨國標準可降低治理碎片化，但提議仍需政府與產業協商。",
+      "keywords": [
+        "AI治理",
+        "標準",
+        "DeepMind"
+      ],
+      "audiences": [
+        "高資產"
+      ],
+      "sources": [
+        {
+          "publisher": "iThome",
+          "title": "Google DeepMind執行長Demis Hassabis提議建立AI標準組織",
+          "url": "https://www.ithome.com.tw/news/177338",
+          "published_at": "2026-07-15",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 51,
+      "score_breakdown": {
+        "importance": 31,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 8,
+        "recency": 4
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以AI技術、產品、產業、治理或社會影響為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-electric-scooter-share",
+      "topic": "新鮮事",
+      "time": "17:28",
+      "title": "2025年電動機車市售比為6.94%",
+      "summary": "公視新聞實驗室整理，2025年電動機車領牌占比6.94%；政府目標為2040年市售比100%。",
+      "impact": "目標與目前市占差距顯示轉型仍涉及價格、充換電與使用情境。",
+      "keywords": [
+        "電動機車",
+        "淨零",
+        "交通"
+      ],
+      "audiences": [
+        "高資產",
+        "定存"
+      ],
+      "sources": [
+        {
+          "publisher": "公視新聞網",
+          "title": "電動機車為何市售不到7%？ 2040年拚100%可能嗎？〖新聞實驗室〗",
+          "url": "https://news.pts.org.tw/article/817768",
+          "published_at": "2026-07-15T17:28:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 51,
+      "score_breakdown": {
+        "importance": 30,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 8,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以生活、消費、旅遊、社會、政策或一般公共議題為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-foxconn-robotics-financing",
+      "topic": "投資理財",
+      "time": "20:06",
+      "title": "鴻海以900萬美元參與人形機器人SPAC投資",
+      "summary": "鴻海旗下鴻揚創投以每股10美元、總額900萬美元取得Churchill Capital Corp XI股權；該SPAC預計與Agility Robotics合併，PIPE融資由鴻海領投。",
+      "impact": "交易呈現企業以股權與PIPE參與新創資本形成，實際合併與募資仍受交易條件影響。",
+      "keywords": [
+        "鴻海",
+        "SPAC",
+        "PIPE融資"
+      ],
+      "audiences": [
+        "貸款",
+        "高資產"
+      ],
+      "sources": [
+        {
+          "publisher": "鉅亨網",
+          "title": "鴻海2.9億元取得Churchill Capital Corp XI股權 推進人形機器人投資",
+          "url": "https://news.cnyes.com/news/id/6536069",
+          "published_at": "2026-07-15T20:06:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "每股10美元、總額900萬美元及PIPE由鴻海領投均載於來源；合併仍待完成。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 51,
+      "score_breakdown": {
+        "importance": 29,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 9,
+        "recency": 5
+      },
+      "selection_reason": "企業融資與機器人投資具客群話題性；未確認首頁或熱門訊號不給分。",
+      "classification_reason": "主體為股權與SPAC投資，不是銀行借款、授信或還款安排，歸入投資理財。"
+    },
+    {
+      "event_id": "2026-07-16-hospital-financials",
+      "topic": "新鮮事",
+      "time": "14:46",
+      "title": "健保署公布240家醫療院所2024年財報",
+      "summary": "健保署公布240家醫療院所財報；林口長庚整體結餘37.26億元，連續9年居首，其中醫務利益4.44億元。",
+      "impact": "醫院整體結餘包含醫務與非醫務項目，不能直接等同醫療服務獲利。",
+      "keywords": [
+        "醫院",
+        "健保署",
+        "財報"
+      ],
+      "audiences": [
+        "高資產",
+        "定存"
+      ],
+      "sources": [
+        {
+          "publisher": "公視新聞網",
+          "title": "林口長庚連9年成全台「最賺錢」醫院 年度結餘達37.26億元",
+          "url": "https://news.pts.org.tw/article/817719",
+          "published_at": "2026-07-15T14:46:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 51,
+      "score_breakdown": {
+        "importance": 30,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 8,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以生活、消費、旅遊、社會、政策或一般公共議題為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-merc-life-rating",
+      "topic": "投資理財",
+      "time": "10:45",
+      "title": "三商壽信用評等調升，展望仍為負向",
+      "summary": "中華信評將三商壽長期發行體信用評等調升至twAA-；鉅亨網報導，評等展望仍列負向並提醒整合風險。",
+      "impact": "評等改善有助觀察信用條件，但負向展望與合併執行風險仍需保留。",
+      "keywords": [
+        "信用評等",
+        "三商壽",
+        "玉山金"
+      ],
+      "audiences": [
+        "高資產",
+        "定存"
+      ],
+      "sources": [
+        {
+          "publisher": "鉅亨網",
+          "title": "9/1納入玉山金！三商壽信用評等連跳3級 中華信評看好強健集團資源支持",
+          "url": "https://news.cnyes.com/news/id/6535334",
+          "published_at": "2026-07-15T10:45:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 51,
+      "score_breakdown": {
+        "importance": 31,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 8,
+        "recency": 4
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以市場、投資商品、資產配置或金融機構投資資訊為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-mlcc-ai-demand",
+      "topic": "AI",
+      "time": "13:18",
+      "title": "AI伺服器需求推升高容MLCC交期與報價",
+      "summary": "鉅亨網報導，AI伺服器用高容MLCC交期最長達40週，市場報價漲幅15%至35%；數字屬報導彙整的供應鏈資訊。",
+      "impact": "零組件吃緊可能影響伺服器成本與供應，但仍需追蹤實際訂單與公司公告。",
+      "keywords": [
+        "MLCC",
+        "AI伺服器",
+        "供應鏈"
+      ],
+      "audiences": [
+        "高資產"
+      ],
+      "sources": [
+        {
+          "publisher": "鉅亨網",
+          "title": "AI帶旺「電子米」翻身 MLCC交期飆40週、價格最高漲35%",
+          "url": "https://news.cnyes.com/news/id/6535072",
+          "published_at": "2026-07-15T13:18:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 51,
+      "score_breakdown": {
+        "importance": 30,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 8,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以AI技術、產品、產業、治理或社會影響為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-model-competition-shift",
+      "topic": "AI",
+      "time": "14:10",
+      "title": "AI模型競爭轉向代理、工具調用與成本",
+      "summary": "鉅亨網整理近期模型發布，指出業者訴求從參數與跑分逐步轉向程式設計、代理、工具調用及使用成本。",
+      "impact": "企業選型應回到任務品質、成本、安全與整合，而非只看單一榜單。",
+      "keywords": [
+        "模型競爭",
+        "AI代理",
+        "成本"
+      ],
+      "audiences": [
+        "高資產",
+        "貸款"
+      ],
+      "sources": [
+        {
+          "publisher": "鉅亨網",
+          "title": "AI競爭焦點轉向？模型參數規模與跑分成績不再重要、「這些」才是關鍵",
+          "url": "https://news.cnyes.com/news/id/6535317",
+          "published_at": "2026-07-15T14:10:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 51,
+      "score_breakdown": {
+        "importance": 29,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 9,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以AI技術、產品、產業、治理或社會影響為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-etf-ex-dividend",
+      "topic": "投資理財",
+      "time": "16:58",
+      "title": "7月31檔台股ETF除息，5檔當日完成填息",
+      "summary": "經濟日報引述CMoney統計，7月有31檔台股ETF除息；7月15日5檔ETF在除息當日完成填息。",
+      "impact": "填息速度反映當日行情與買盤，不代表後續報酬或配息品質。",
+      "keywords": [
+        "ETF",
+        "除息",
+        "填息"
+      ],
+      "audiences": [
+        "高資產",
+        "定存"
+      ],
+      "sources": [
+        {
+          "publisher": "經濟日報",
+          "title": "7月31檔台股 ETF 除息秀夯！五檔台股 ETF 除息買氣旺 上演一日填息秀",
+          "url": "https://money.udn.com/money/story/5618/9629695",
+          "published_at": "2026-07-15T16:58:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 50,
+      "score_breakdown": {
+        "importance": 29,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 8,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以市場、投資商品、資產配置或金融機構投資資訊為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-japan-visitors-h1",
+      "topic": "新鮮事",
+      "time": "16:37",
+      "title": "上半年訪日外國旅客2,108萬4,800人次",
+      "summary": "日本政府觀光局公布，上半年訪日外國旅客較去年同期減少2%；台灣旅客397萬2,200人次、年增20.9%。",
+      "impact": "旅遊人次與消費趨勢可作行程話題，仍需留意匯率、航班與目的地政策。",
+      "keywords": [
+        "日本旅遊",
+        "觀光",
+        "台灣旅客"
+      ],
+      "audiences": [
+        "頂級卡",
+        "高資產"
+      ],
+      "sources": [
+        {
+          "publisher": "經濟日報",
+          "title": "上半年訪日外國人數微減　5年來首度下滑",
+          "url": "https://money.udn.com/money/story/5599/9629636",
+          "published_at": "2026-07-15T16:37:42+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 50,
+      "score_breakdown": {
+        "importance": 28,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 9,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以生活、消費、旅遊、社會、政策或一般公共議題為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-nanshan-h1-results",
+      "topic": "投資理財",
+      "time": "18:45",
+      "title": "南山人壽上半年自結稅後純益308.7億元",
+      "summary": "南山人壽公布上半年合併自結稅後純益約308.7億元、EPS 2.1元，6月底淨值逾5,600億元。",
+      "impact": "公司自結數字需等待正式財報，商品銷售描述亦屬公司說法。",
+      "keywords": [
+        "南山人壽",
+        "自結獲利",
+        "淨值"
+      ],
+      "audiences": [
+        "高資產",
+        "定存"
+      ],
+      "sources": [
+        {
+          "publisher": "鉅亨網",
+          "title": "南山人壽上半年賺308.7億元 6月底淨值激增衝上逾5600億元",
+          "url": "https://news.cnyes.com/news/id/6536005",
+          "published_at": "2026-07-15T18:45:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 50,
+      "score_breakdown": {
+        "importance": 29,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 8,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以市場、投資商品、資產配置或金融機構投資資訊為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-us-stocks-close",
+      "topic": "投資理財",
+      "time": "05:22",
+      "title": "美股7月14日收高，半導體反彈但IBM重挫",
+      "summary": "鉅亨網報導，美國6月通膨低於預期，7月14日標普500與那斯達克收高；IBM因獲利預警重挫逾25%。",
+      "impact": "指數上漲與個股風險並存，配置時應避免以單一指數概括所有產業。",
+      "keywords": [
+        "美股",
+        "半導體",
+        "IBM"
+      ],
+      "audiences": [
+        "高資產"
+      ],
+      "sources": [
+        {
+          "publisher": "鉅亨網",
+          "title": "〈美股盤後〉川普撤回荷姆茲20%過路費 通膨降溫助美股收高 IBM創紀錄暴跌25%",
+          "url": "https://news.cnyes.com/news/id/6534944",
+          "published_at": "2026-07-15T05:22:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 50,
+      "score_breakdown": {
+        "importance": 30,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 8,
+        "recency": 4
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以市場、投資商品、資產配置或金融機構投資資訊為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-active-taiwan-funds",
+      "topic": "投資理財",
+      "time": "01:30",
+      "title": "6月主動式台股基金淨申購415.99億元",
+      "summary": "經濟日報引述投信投顧公會統計，6月主動式台股基金淨申購415.99億元，居主動式基金類別之冠。",
+      "impact": "申購規模代表資金流向，不等同未來績效或個別產品適合度。",
+      "keywords": [
+        "主動式基金",
+        "淨申購",
+        "台股"
+      ],
+      "audiences": [
+        "高資產",
+        "定存"
+      ],
+      "sources": [
+        {
+          "publisher": "經濟日報",
+          "title": "主動式台股基金 吸金",
+          "url": "https://money.udn.com/money/story/5618/9630232",
+          "published_at": "2026-07-16T01:30:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-16",
+      "focus_score": 49,
+      "score_breakdown": {
+        "importance": 28,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 8,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以市場、投資商品、資產配置或金融機構投資資訊為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-ural-floods",
+      "topic": "新鮮事",
+      "time": "19:40",
+      "title": "俄羅斯烏拉爾地區暴雨造成撤離與停電",
+      "summary": "公視報導，俄羅斯烏拉爾地區持續大雨造成河水暴漲，數百人撤離、約1萬人面臨停電；智利亦對10個地區發布預防性緊急狀態。",
+      "impact": "極端天氣影響旅行與供應，相關人數仍可能隨救災更新。",
+      "keywords": [
+        "極端氣候",
+        "洪水",
+        "停電"
+      ],
+      "audiences": [
+        "頂級卡",
+        "高資產"
+      ],
+      "sources": [
+        {
+          "publisher": "公視新聞網",
+          "title": "俄烏拉爾地區大雨釀河水暴漲 數百人撤離、上萬人面臨停電",
+          "url": "https://news.pts.org.tw/article/817806",
+          "published_at": "2026-07-15T19:40:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 49,
+      "score_breakdown": {
+        "importance": 29,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 7,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以生活、消費、旅遊、社會、政策或一般公共議題為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-youth-mortgage-reaction",
+      "topic": "貸款",
+      "time": "20:22",
+      "title": "房仲認為青安3.0偏向精準補貼，刺激效果有限",
+      "summary": "房仲與建築業者認為，若新制限縮年齡、所得與房價，補貼將更聚焦自住首購，但高總價產品與銷售週期可能承壓。",
+      "impact": "內容是業者對未定案政策的預測，不宜當作已發生的市場結果。",
+      "keywords": [
+        "房市",
+        "首購",
+        "政策觀點",
+        "房仲"
+      ],
+      "audiences": [
+        "貸款",
+        "高資產"
+      ],
+      "sources": [
+        {
+          "publisher": "經濟日報",
+          "title": "房仲業看青安3.0方案 補貼更精準回歸剛性需求",
+          "url": "https://money.udn.com/money/story/5621/9630141",
+          "published_at": "2026-07-15T20:22:01+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "房貸利率與政策效果描述均為報導當時的業者比較或意見。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 49,
+      "score_breakdown": {
+        "importance": 27,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 9,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以房貸、信貸、授信、企業融資、借款成本、還款或槓桿風險為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-ai-fund-performance",
+      "topic": "投資理財",
+      "time": "14:51",
+      "title": "上半年台股基金領先，資金集中AI硬體鏈",
+      "summary": "平台整理資料顯示，上半年台灣中小型股票基金平均報酬95.1%、台灣股票基金82.7%，資金偏向AI、半導體與硬體供應鏈。",
+      "impact": "歷史績效突出也代表集中度與評價風險上升，不能直接外推未來報酬。",
+      "keywords": [
+        "基金",
+        "AI硬體",
+        "半導體",
+        "歷史績效"
+      ],
+      "audiences": [
+        "高資產",
+        "定存"
+      ],
+      "sources": [
+        {
+          "publisher": "鉅亨網",
+          "title": "投資雷達》上半年基金成績單出爐，AI硬體鏈帶動台股基金領跑",
+          "url": "https://news.cnyes.com/news/id/6535610",
+          "published_at": "2026-07-15T14:51:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "報導的基金績效由鉅亨買基金整理，屬歷史區間資料，不代表未來結果。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 48,
+      "score_breakdown": {
+        "importance": 27,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 8,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以市場、投資商品、資產配置或金融機構投資資訊為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-merc-life-h1-results",
+      "topic": "投資理財",
+      "time": "18:13",
+      "title": "三商壽上半年自結賺51億元，淨值升至1,200億元",
+      "summary": "三商美邦人壽上半年自結稅後純益51億元、EPS 0.87元；6月底淨值1,200億元，外匯價格變動準備金380.8億元。",
+      "impact": "資本與避險緩衝改善，但數字仍需以正式財報確認。",
+      "keywords": [
+        "三商壽",
+        "淨值",
+        "外匯準備金",
+        "自結財報"
+      ],
+      "audiences": [
+        "高資產",
+        "定存"
+      ],
+      "sources": [
+        {
+          "publisher": "鉅亨網",
+          "title": "投資神助攻！三商壽上半年賺51億元 6月底淨值衝上1200億元",
+          "url": "https://news.cnyes.com/news/id/6535998",
+          "published_at": "2026-07-15T18:13:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "稅後純益、EPS、淨值與外匯價格變動準備金均來自公司自結資訊。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 48,
+      "score_breakdown": {
+        "importance": 27,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 8,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以市場、投資商品、資產配置或金融機構投資資訊為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-youth-digital-safety-game",
+      "topic": "新鮮事",
+      "time": "19:40",
+      "title": "台少盟以互動手遊推廣青少年數位安全",
+      "summary": "台少盟推出模擬社群與AI影像情境的互動手機遊戲，協助青少年理解隱私、手機使用與數位性暴力風險。",
+      "impact": "數位安全除教育外，也需要平台、家庭與政府共同建立保護機制。",
+      "keywords": [
+        "青少年",
+        "數位安全",
+        "AI影像"
+      ],
+      "audiences": [
+        "高資產",
+        "頂級卡"
+      ],
+      "sources": [
+        {
+          "publisher": "公視新聞網",
+          "title": "台少盟推手遊模擬社群情境 引導青少年正確使用網路",
+          "url": "https://news.pts.org.tw/article/817798",
+          "published_at": "2026-07-15T19:40:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 48,
+      "score_breakdown": {
+        "importance": 27,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 8,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以生活、消費、旅遊、社會、政策或一般公共議題為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-softbank-ai-outlook",
+      "topic": "AI",
+      "time": "01:00",
+      "title": "孫正義提出2040年AI投資與GDP占比預測",
+      "summary": "軟銀執行長孫正義預測，2040年前全球每年需投入5兆美元發展AI，AI收入可能占全球GDP兩成；這些均為其公開預測。",
+      "impact": "長期預測可反映產業企圖，但不能當作已驗證的市場規模。",
+      "keywords": [
+        "軟銀",
+        "AI投資",
+        "長期預測"
+      ],
+      "audiences": [
+        "高資產"
+      ],
+      "sources": [
+        {
+          "publisher": "鉅亨網",
+          "title": "駁AI泡沫說荒謬！孫正義預言2040年占全球GDP兩成 100兆個AI代理人將接管世界",
+          "url": "https://news.cnyes.com/news/id/6534332",
+          "published_at": "2026-07-15T01:00:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 47,
+      "score_breakdown": {
+        "importance": 28,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 7,
+        "recency": 4
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以AI技術、產品、產業、治理或社會影響為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-korea-chip-rebound",
+      "topic": "投資理財",
+      "time": "09:13",
+      "title": "韓國與日本晶片股7月15日反彈",
+      "summary": "鉅亨網報導，SK海力士7月15日開盤漲逾11%，三星電子與多檔日本晶片股同步上漲，韓國Kospi開高後擴大漲幅。",
+      "impact": "急跌後反彈顯示波動仍高，盤中漲幅不等於收盤績效。",
+      "keywords": [
+        "韓股",
+        "晶片股",
+        "波動"
+      ],
+      "audiences": [
+        "高資產"
+      ],
+      "sources": [
+        {
+          "publisher": "鉅亨網",
+          "title": "SK海力士首爾暴漲逾11%！韓股Kospi開盤升7% 日本晶片股也歡漲",
+          "url": "https://news.cnyes.com/news/id/6535075",
+          "published_at": "2026-07-15T09:13:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 46,
+      "score_breakdown": {
+        "importance": 27,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 7,
+        "recency": 4
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以市場、投資商品、資產配置或金融機構投資資訊為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-lulin-atmosphere-20-years",
+      "topic": "新鮮事",
+      "time": "12:34",
+      "title": "鹿林山大氣背景站運作20年，持續記錄溫室氣體變化",
+      "summary": "鹿林山大氣背景站啟用20年；環境部表示，與夏威夷茂納羅亞站觀測到的溫室氣體變化皆呈上升趨勢。",
+      "impact": "長期背景監測有助辨識跨境與區域空污變化，單一時點不宜作因果判斷。",
+      "keywords": [
+        "鹿林山",
+        "空污",
+        "溫室氣體",
+        "環境監測"
+      ],
+      "audiences": [
+        "高資產",
+        "頂級卡",
+        "定存"
+      ],
+      "sources": [
+        {
+          "publisher": "公視新聞網",
+          "title": "鹿林山大氣背景站啟用20年 見證亞洲大陸空污變遷",
+          "url": "https://news.pts.org.tw/article/817695",
+          "published_at": "2026-07-15T12:34:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "20年與溫室氣體趨勢均來自公視引述環境部說明。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 46,
+      "score_breakdown": {
+        "importance": 26,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 7,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以生活、消費、旅遊、社會、政策或一般公共議題為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-tbb-h1-results",
+      "topic": "投資理財",
+      "time": "12:42",
+      "title": "臺企銀上半年自結淨利74.12億元，年增15.54%",
+      "summary": "臺企銀6月自結稅後淨利14.90億元；上半年累計74.12億元、年增15.54%，EPS 0.76元。",
+      "impact": "銀行獲利維持成長，後續仍應觀察資產品質與正式財報。",
+      "keywords": [
+        "臺企銀",
+        "銀行獲利",
+        "EPS",
+        "數位金融"
+      ],
+      "audiences": [
+        "高資產",
+        "定存"
+      ],
+      "sources": [
+        {
+          "publisher": "鉅亨網",
+          "title": "臺企銀上半年淨賺74.12億元年增逾15% 智慧金融連3年獲ABF大獎加持",
+          "url": "https://news.cnyes.com/news/id/6535487",
+          "published_at": "2026-07-15T12:42:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "6月與上半年獲利、年增率及EPS均為公司自結數字。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 46,
+      "score_breakdown": {
+        "importance": 25,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 8,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以市場、投資商品、資產配置或金融機構投資資訊為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-purple-crow-butterflies",
+      "topic": "新鮮事",
+      "time": "12:34",
+      "title": "雲林紫斑蝶每分鐘最高608隻，高公局啟動讓蝶道",
+      "summary": "7月15日上午雲林監測到大量紫斑蝶，最高每分鐘608隻；高公局上午9時封閉國3林內段部分外側車道護蝶。",
+      "impact": "罕見7月大量遷徙同時涉及生態保育與短時交通調度。",
+      "keywords": [
+        "紫斑蝶",
+        "雲林",
+        "國道3號",
+        "生態保育"
+      ],
+      "audiences": [
+        "頂級卡",
+        "高資產",
+        "定存"
+      ],
+      "sources": [
+        {
+          "publisher": "公視新聞網",
+          "title": "雲林大量紫斑蝶飛舞 高公局緊急封道護蝶",
+          "url": "https://news.pts.org.tw/article/817694",
+          "published_at": "2026-07-15T12:34:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "每分鐘608隻、上午9時及封閉路段均載於公視報導。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 45,
+      "score_breakdown": {
+        "importance": 25,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 7,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以生活、消費、旅遊、社會、政策或一般公共議題為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-amd-ai-demand",
+      "topic": "AI",
+      "time": "07:50",
+      "title": "美銀調高AMD目標價並看好AI算力需求",
+      "summary": "鉅亨網引述美銀研究報告，分析師將AMD目標價由550美元調升至620美元並重申買進評等。",
+      "impact": "券商評等與目標價屬分析師觀點，不能視為保證或直接投資建議。",
+      "keywords": [
+        "AMD",
+        "AI算力",
+        "券商評等"
+      ],
+      "audiences": [
+        "高資產"
+      ],
+      "sources": [
+        {
+          "publisher": "鉅亨網",
+          "title": "美銀：AI算力需求未降溫 AMD仍是半導體首選 目標價上調至620美元",
+          "url": "https://news.cnyes.com/news/id/6534966",
+          "published_at": "2026-07-15T07:50:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 44,
+      "score_breakdown": {
+        "importance": 25,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 7,
+        "recency": 4
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以AI技術、產品、產業、治理或社會影響為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-apple-model-compression",
+      "topic": "AI",
+      "time": "17:00",
+      "title": "蘋果傳評估AI模型壓縮技術，合作仍在早期",
+      "summary": "鉅亨網報導，蘋果傳與PrismML洽談模型壓縮技術，評估讓較大模型在iPhone端運行；雙方洽談仍屬早期。",
+      "impact": "端側模型有助隱私與延遲，但產品能力與合作尚未確定。",
+      "keywords": [
+        "蘋果",
+        "端側AI",
+        "模型壓縮"
+      ],
+      "audiences": [
+        "高資產",
+        "頂級卡"
+      ],
+      "sources": [
+        {
+          "publisher": "鉅亨網",
+          "title": "鋪路Siri升級？蘋果傳洽談AI壓縮技術 iPhone將直跑270億參數大模型",
+          "url": "https://news.cnyes.com/news/id/6535245",
+          "published_at": "2026-07-15T17:00:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 44,
+      "score_breakdown": {
+        "importance": 24,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 7,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以AI技術、產品、產業、治理或社會影響為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-cathay-card-spend",
+      "topic": "信用卡",
+      "time": "17:51",
+      "title": "國泰世華上半年信用卡簽帳金額4,923億元",
+      "summary": "國泰世華公布6月信用卡簽帳金額1,247億元，上半年累計4,923億元；銀行將成長歸因於稅款與一般消費。",
+      "impact": "發卡行數據適合觀察消費趨勢，但優惠與分期條件需回到正式條款。",
+      "keywords": [
+        "國泰世華",
+        "信用卡",
+        "消費"
+      ],
+      "audiences": [
+        "頂級卡",
+        "貸款"
+      ],
+      "sources": [
+        {
+          "publisher": "經濟日報",
+          "title": "國泰世華銀6月信用卡刷卡金額逾千億 上半年累計刷卡金額衝4,923億元",
+          "url": "https://money.udn.com/money/story/11162/9629808",
+          "published_at": "2026-07-15T17:51:26+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 44,
+      "score_breakdown": {
+        "importance": 22,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 9,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以信用卡簽帳、發卡、回饋、支付場景或卡友權益為主要內容；不涉及借款核貸。"
+    },
+    {
+      "event_id": "2026-07-16-shengda-financing",
+      "topic": "貸款",
+      "time": "16:10",
+      "title": "昇達科規劃以自有資金與銀行融資支應併購",
+      "summary": "鉅亨網報導，昇達科說明一項收購案的資金來源將包含自有資金及銀行融資。",
+      "impact": "企業併購融資會影響負債與現金流，仍須追蹤正式公告及交易完成條件。",
+      "keywords": [
+        "企業融資",
+        "併購",
+        "銀行借款"
+      ],
+      "audiences": [
+        "貸款",
+        "高資產"
+      ],
+      "sources": [
+        {
+          "publisher": "鉅亨網",
+          "title": "昇達科擴大布局 收購資金將以自有資金及銀行融資支應",
+          "url": "https://news.cnyes.com/news/id/6535765",
+          "published_at": "2026-07-15T16:10:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 44,
+      "score_breakdown": {
+        "importance": 23,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 8,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以房貸、信貸、授信、企業融資、借款成本、還款或槓桿風險為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-esun-card-spend",
+      "topic": "信用卡",
+      "time": "16:33",
+      "title": "玉山銀6月信用卡簽帳金額1,609億元",
+      "summary": "玉山銀行公布6月信用卡簽帳金額1,609億元、年增224%，上半年累計4,149億元。",
+      "impact": "稅款與旅遊支出推升刷卡額，持卡人仍應區分消費回饋與資金成本。",
+      "keywords": [
+        "玉山銀",
+        "信用卡",
+        "簽帳"
+      ],
+      "audiences": [
+        "頂級卡",
+        "貸款"
+      ],
+      "sources": [
+        {
+          "publisher": "經濟日報",
+          "title": "玉山銀信用卡6月簽帳金額1,609億元創新高 年增224%",
+          "url": "https://money.udn.com/money/story/11162/9629625",
+          "published_at": "2026-07-15T16:33:38+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 43,
+      "score_breakdown": {
+        "importance": 21,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 9,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以信用卡簽帳、發卡、回饋、支付場景或卡友權益為主要內容；不涉及借款核貸。"
+    },
+    {
+      "event_id": "2026-07-16-fubon-card-spend",
+      "topic": "信用卡",
+      "time": "15:58",
+      "title": "北富銀上半年信用卡簽帳金額突破3,300億元",
+      "summary": "北富銀公布6月刷卡量755億元、上半年簽帳金額突破3,300億元，並說明稅款、旅遊及量販為主要動能。",
+      "impact": "信用卡消費成長不代表可支配所得同步提高，分期仍應衡量現金流。",
+      "keywords": [
+        "北富銀",
+        "信用卡",
+        "分期"
+      ],
+      "audiences": [
+        "頂級卡",
+        "貸款"
+      ],
+      "sources": [
+        {
+          "publisher": "經濟日報",
+          "title": "北富銀信用卡 上半年簽帳金額突破3,300億元 創歷年同期新高",
+          "url": "https://money.udn.com/money/story/11162/9629543",
+          "published_at": "2026-07-15T15:58:14+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 43,
+      "score_breakdown": {
+        "importance": 21,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 9,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以信用卡簽帳、發卡、回饋、支付場景或卡友權益為主要內容；不涉及借款核貸。"
+    },
+    {
+      "event_id": "2026-07-16-tw-market-premarket",
+      "topic": "投資理財",
+      "time": "08:10",
+      "title": "台股7月15日盤前關注期指結算與均線",
+      "summary": "鉅亨研報整理7月14日台股下跌642.57點、三大法人合計賣超753.60億元，並提醒7月15日留意台指期結算。",
+      "impact": "盤前研判屬分析觀點，應與當日收盤結果分開呈現。",
+      "keywords": [
+        "台股",
+        "台指期",
+        "法人"
+      ],
+      "audiences": [
+        "高資產"
+      ],
+      "sources": [
+        {
+          "publisher": "鉅亨網",
+          "title": "台股盤前｜台股拉尾盤仍跌 642 點！今日留意台指期結算，觀察能否放量站回均線",
+          "url": "https://news.cnyes.com/news/id/6534529",
+          "published_at": "2026-07-15T08:10:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 43,
+      "score_breakdown": {
+        "importance": 24,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 7,
+        "recency": 4
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以市場、投資商品、資產配置或金融機構投資資訊為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-taishin-card-spend",
+      "topic": "信用卡",
+      "time": "16:35",
+      "title": "台新銀6月信用卡簽帳金額918億元",
+      "summary": "台新銀公布6月信用卡刷卡金額918億元、年增109.4%，稅款、保費、海外及旅遊消費成長。",
+      "impact": "回饋活動與分期方案有期間及資格限制，應以銀行條款為準。",
+      "keywords": [
+        "台新銀",
+        "信用卡",
+        "分期"
+      ],
+      "audiences": [
+        "頂級卡",
+        "貸款"
+      ],
+      "sources": [
+        {
+          "publisher": "經濟日報",
+          "title": "台新銀6月信用卡刷卡金額918億元 單月刷卡金額創歷年新高",
+          "url": "https://money.udn.com/money/story/5613/9629628",
+          "published_at": "2026-07-15T16:35:18+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 42,
+      "score_breakdown": {
+        "importance": 20,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 9,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以信用卡簽帳、發卡、回饋、支付場景或卡友權益為主要內容；不涉及借款核貸。"
+    },
+    {
+      "event_id": "2026-07-16-openai-speaker-rumor",
+      "topic": "AI",
+      "time": "日期",
+      "title": "外傳OpenAI規劃在2026年推出智慧喇叭",
+      "summary": "iThome整理外媒報導，OpenAI可能在2026年發表智慧喇叭；目前屬未經公司正式確認的產品傳聞。",
+      "impact": "傳聞顯示AI服務競爭可能延伸至硬體入口，但不應視為已確定上市計畫。",
+      "keywords": [
+        "OpenAI",
+        "智慧喇叭",
+        "產品傳聞"
+      ],
+      "audiences": [
+        "高資產",
+        "頂級卡"
+      ],
+      "sources": [
+        {
+          "publisher": "iThome",
+          "title": "外傳OpenAI將在今年發表智慧喇叭",
+          "url": "https://www.ithome.com.tw/news/177322",
+          "published_at": "2026-07-15",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 41,
+      "score_breakdown": {
+        "importance": 22,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 7,
+        "recency": 4
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以AI技術、產品、產業、治理或社會影響為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-hsr-summer-offer",
+      "topic": "新鮮事",
+      "time": "10:06",
+      "title": "高鐵假期推出暑期指定車次與親子專案",
+      "summary": "台灣高鐵宣布即日起至9月30日推出暑期專案，指定平日車次搭配住宿最低每人2,990元起。",
+      "impact": "價格與名額依指定車次、飯店及銷售頁為準，適合規劃暑假國旅時比較。",
+      "keywords": [
+        "高鐵",
+        "暑假",
+        "國旅"
+      ],
+      "audiences": [
+        "頂級卡",
+        "定存"
+      ],
+      "sources": [
+        {
+          "publisher": "經濟日報",
+          "title": "高鐵假期暑假優惠開跑 指定車次最低「車票＋住宿」2,990元起",
+          "url": "https://money.udn.com/money/story/122328/9628506",
+          "published_at": "2026-07-15T10:06:14+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 40,
+      "score_breakdown": {
+        "importance": 20,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 8,
+        "recency": 4
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以生活、消費、旅遊、社會、政策或一般公共議題為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-tatung-chemical-financing",
+      "topic": "貸款",
+      "time": "15:51",
+      "title": "大同精化揭露6月底銀行借款8,488.8萬元",
+      "summary": "公司公告6月底銀行融資額度1億3,258.2萬元、已借8,488.8萬元，並列出未來三個月資金狀況。",
+      "impact": "公告可用於觀察企業短期流動性，但不代表銀行對其他借款人的授信條件。",
+      "keywords": [
+        "銀行借款",
+        "流動性",
+        "企業財務"
+      ],
+      "audiences": [
+        "貸款",
+        "高資產"
+      ],
+      "sources": [
+        {
+          "publisher": "鉅亨網",
+          "title": "大同精化:公告本公司115年6月份自結合併財務報告之負債比率、流動比率、速動比率、未來三個月資金狀況及銀行融資額度使用情形",
+          "url": "https://news.cnyes.com/news/id/6535724",
+          "published_at": "2026-07-15T15:51:00+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 39,
+      "score_breakdown": {
+        "importance": 19,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 7,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以房貸、信貸、授信、企業融資、借款成本、還款或槓桿風險為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-youth-life-festival",
+      "topic": "新鮮事",
+      "time": "18:28",
+      "title": "青年理想生活節7月25、26日在信義區登場",
+      "summary": "活動預定7月25至26日下午2時至晚間9時於香堤大道舉行，包含逾30組表演團隊、35組以上青創品牌與4大展區。",
+      "impact": "可作為週末生活與青年創業話題，行前仍應確認主辦單位最新公告。",
+      "keywords": [
+        "生活節",
+        "香堤大道",
+        "青創",
+        "音樂活動"
+      ],
+      "audiences": [
+        "頂級卡",
+        "高資產",
+        "定存"
+      ],
+      "sources": [
+        {
+          "publisher": "經濟日報",
+          "title": "理想生活節25、26日香堤大道登場 艾薇、芒果醬、Karencici接力開唱",
+          "url": "https://money.udn.com/money/story/122328/9629722",
+          "published_at": "2026-07-15T18:28:09+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "日期、時段、團隊與品牌數量均來自主辦單位發布資訊。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 39,
+      "score_breakdown": {
+        "importance": 18,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 8,
+        "recency": 5
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以生活、消費、旅遊、社會、政策或一般公共議題為主要內容。"
+    },
+    {
+      "event_id": "2026-07-16-taipei-summer-travel-fair",
+      "topic": "新鮮事",
+      "time": "10:00",
+      "title": "台北夏季旅展7月17日至20日登場",
+      "summary": "觀光署表示，2026台北國際夏季旅展將於7月17日至20日在世貿一館舉行，主題館整合全台五大區域觀光亮點。",
+      "impact": "活動與優惠可能調整，行前應以主辦單位公告為準。",
+      "keywords": [
+        "旅展",
+        "台灣觀光",
+        "暑假"
+      ],
+      "audiences": [
+        "頂級卡",
+        "定存"
+      ],
+      "sources": [
+        {
+          "publisher": "經濟日報",
+          "title": "台北夏季旅展將登場 觀光署邀請一同解鎖百大亮點",
+          "url": "https://money.udn.com/money/story/10871/9628478",
+          "published_at": "2026-07-15T10:00:39+08:00",
+          "source_type": "reporting"
+        }
+      ],
+      "evidence_notes": [
+        "摘要中的數字、日期與狀態依附列來源；預測、公司說法或分析師觀點均保留歸屬。"
+      ],
+      "published_date": "2026-07-15",
+      "focus_score": 38,
+      "score_breakdown": {
+        "importance": 18,
+        "cross_source_coverage": 8,
+        "homepage_or_popular": 0,
+        "audience_relevance": 8,
+        "recency": 4
+      },
+      "selection_reason": "依事件重要性、多來源覆蓋、可確認的首頁／熱門訊號、客群相關性與時效性評分；未確認訊號不給分。",
+      "classification_reason": "以生活、消費、旅遊、社會、政策或一般公共議題為主要內容。"
+    }
+  ],
+  "audience_talk_tracks": {
+    "全部|高資產": {
+      "opening": "今天可從台股反彈、金融業獲利與AI治理三條線看市場，機會增加的同時也要留意資金集中與政策未定風險。",
+      "questions": [
+        "您目前更關心資產成長、收益穩定，還是跨境配置？",
+        "要不要一起檢視現有部位是否過度集中在單一市場或科技題材？"
+      ]
+    },
+    "全部|定存": {
+      "opening": "今天市場雖然反彈，但房貸政策與AI產業仍有不少變數，穩定資金可以先從期限與流動性安排談起。",
+      "questions": [
+        "這筆資金預計多久不會使用？",
+        "您比較在意固定收益，還是保留分批進場的彈性？"
+      ]
+    },
+    "全部|頂級卡": {
+      "opening": "今天除了市場消息，也有旅遊配房新制與生活活動，剛好可以一起看看近期出行與權益安排。",
+      "questions": [
+        "近期有單人跟團或海外旅遊計畫嗎？",
+        "您較常使用的機場、旅遊或餐飲權益是哪一類？"
+      ]
+    },
+    "全部|貸款": {
+      "opening": "今天貸款焦點是青安3.0仍待定案，以及企業融資與海外法金持續擴張。",
+      "questions": [
+        "您目前是首購、自住換屋，還是企業週轉需求？",
+        "希望優先比較利率、額度、年限，還是寬限期？"
+      ]
+    },
+    "投資理財|高資產": {
+      "opening": "台股強彈、金融業獲利亮眼，但外資仍賣超，現在更適合檢查配置而不是只追單日行情。",
+      "questions": [
+        "您的台股與AI相關曝險目前大約占多少？",
+        "要不要把FVOCI、自結獲利與現金股利分開評估？"
+      ]
+    },
+    "投資理財|定存": {
+      "opening": "股票與基金上半年績效突出，但集中度也高，定存資金可先保留風險緩衝。",
+      "questions": [
+        "您能接受多大幅度的短期波動？",
+        "若分批配置，您希望保留多少比例在固定收益？"
+      ]
+    },
+    "投資理財|頂級卡": {
+      "opening": "今天市場焦點在台股與金融股，也可以順便檢視卡片扣繳、投資消費回饋與現金流安排。",
+      "questions": [
+        "您平常投資款項與生活消費是否使用同一個主要帳戶？",
+        "需要一起整理自動扣繳與回饋權益嗎？"
+      ]
+    },
+    "投資理財|貸款": {
+      "opening": "市場反彈不等於適合增加槓桿，若同時有貸款與投資需求，應先比較資金成本與可承受波動。",
+      "questions": [
+        "目前貸款利率與每月還款占現金流多少？",
+        "投資資金是否有明確期限與停損安排？"
+      ]
+    },
+    "貸款|高資產": {
+      "opening": "青安政策仍待定案，企業聯貸與跨境融資則持續活躍，高資產客戶可從資產與負債整體配置評估。",
+      "questions": [
+        "您近期有不動產、企業或海外資金需求嗎？",
+        "是否需要把擔保品、幣別與還款來源一起盤點？"
+      ]
+    },
+    "貸款|定存": {
+      "opening": "若有購屋需求，不一定要先解約全部定存，可比較保留流動性與降低貸款本金的差異。",
+      "questions": [
+        "購屋自備款預計何時需要？",
+        "您較重視降低月付金，還是保留緊急預備金？"
+      ]
+    },
+    "貸款|頂級卡": {
+      "opening": "房貸與旅遊消費都會影響月度現金流，可以把貸款支出、卡費與預備金一起安排。",
+      "questions": [
+        "近期是否同時有購屋與大額旅遊消費？",
+        "需要先估算不同寬限期下的月付差異嗎？"
+      ]
+    },
+    "貸款|貸款": {
+      "opening": "青安3.0仍是擬議內容，現在適合先盤點資格與負擔能力，等正式公告後再精確比較。",
+      "questions": [
+        "您的年齡、所得、房屋總價與家庭狀況大致符合哪一類？",
+        "希望先試算一般房貸與政策貸款的月付差異嗎？"
+      ]
+    },
+    "新鮮事|高資產": {
+      "opening": "今天有旅遊規則、生態環境與城市活動，適合從生活安排延伸到家庭與資產規畫。",
+      "questions": [
+        "近期是否有家庭或單人海外行程？",
+        "您會想把旅遊、活動與年度現金流預算一起規畫嗎？"
+      ]
+    },
+    "新鮮事|定存": {
+      "opening": "旅遊配房規則改變可能增加單人出行成本，日常預算也值得預留彈性。",
+      "questions": [
+        "今年是否已有旅遊或大型活動支出計畫？",
+        "要不要把短期支出與定存到期日對齊？"
+      ]
+    },
+    "新鮮事|頂級卡": {
+      "opening": "9月起部分短程團取消單人併房，近期若要出國，可先確認房差與卡片旅遊權益。",
+      "questions": [
+        "您偏好自由行還是團體旅遊？",
+        "要不要比較現有卡片的旅平險、機場與住宿權益？"
+      ]
+    },
+    "新鮮事|貸款": {
+      "opening": "生活規則與活動支出看似小事，但若同時準備購屋或借款，也會影響短期現金流。",
+      "questions": [
+        "未來三個月是否有旅遊或大額支出？",
+        "這些支出會不會影響自備款或每月還款預算？"
+      ]
+    },
+    "AI|高資產": {
+      "opening": "AI代理加速落地，但資料隱私、能源與治理成本也在上升，投資評估不能只看算力需求。",
+      "questions": [
+        "您的AI投資偏向晶片、雲端、軟體還是基礎設施？",
+        "是否需要檢查目前部位對單一題材與監管變化的敏感度？"
+      ]
+    },
+    "AI|定存": {
+      "opening": "AI題材成長快、波動也大，穩健資金可先理解風險，再決定是否小比例參與。",
+      "questions": [
+        "您願意用多少比例承擔科技題材波動？",
+        "是否希望維持固定收益為核心、成長部位分批投入？"
+      ]
+    },
+    "AI|頂級卡": {
+      "opening": "AI代理開始進入網站與服務流程，便利性提高，同時也要關注個資、授權與交易安全。",
+      "questions": [
+        "您是否常用AI協助旅遊、購物或工作？",
+        "對AI代為登入或操作帳戶，您最在意哪一項安全控制？"
+      ]
+    },
+    "AI|貸款": {
+      "opening": "AI可改善授信流程，但資料來源、模型判斷與人工覆核仍是關鍵，不能把自動化等同核准保證。",
+      "questions": [
+        "您希望數位申貸最先改善速度、文件還是透明度？",
+        "若系統判斷與實際狀況不同，您是否重視人工覆核管道？"
+      ]
+    },
+    "信用卡|高資產": {
+      "opening": "五大發卡行刷卡金額創高，旅遊、稅款與日常支付都是主要場景，可藉此檢視卡片權益是否符合實際使用。",
+      "questions": [
+        "您目前最常使用信用卡的場景是旅遊、消費還是繳費？",
+        "現有卡片的年費、回饋與海外手續費是否需要一起盤點？"
+      ]
+    },
+    "信用卡|定存": {
+      "opening": "刷卡消費增加時，更值得把每月全額繳款與預留現金流一起安排。",
+      "questions": [
+        "您平常會預留多少活存作為卡費與日常支出？",
+        "需要一起檢查自動扣款日是否和資金到期日錯開嗎？"
+      ]
+    },
+    "信用卡|頂級卡": {
+      "opening": "近期信用卡成長集中在旅遊與跨境消費，可從機場、里程、保險及海外手續費檢查權益使用率。",
+      "questions": [
+        "您最常使用的頂級卡權益是哪一類？",
+        "今年有海外行程需要比較機場服務、旅遊保障或外幣支付嗎？"
+      ]
+    },
+    "信用卡|貸款": {
+      "opening": "信用卡消費與貸款應分開管理；若無法全額繳清，循環利息與分期成本才會成為重點。",
+      "questions": [
+        "目前卡費通常全額繳清，還是會使用分期或循環？",
+        "要不要一起比較分期總成本與每月可負擔金額？"
+      ]
+    }
+  },
+  "warnings": [
+    "本版來源窗口為台北時間2026-07-15 00:00至2026-07-16 08:00。",
+    "iThome頁面只標示發布日期，未提供精確時分。",
+    "內容為新聞整理與溝通素材，不構成投資、貸款或法律建議。",
+    "焦點評分中的首頁／熱門訊號只有在來源頁可確認時才給分；歷史頁面無法確認者以0分計，不由AI推測。",
+    "每個主題保留15個不同新聞事件；同事件的多個來源合併在同一張新聞卡。"
+  ],
+  "manual_review_items": [
+    "青安3.0在來源截止時間仍待行政院會拍板，若日後再次發布應先更新正式條件。",
+    "公司自結財務數字需在正式財報公布後重新核對。",
+    "Grok Build、AWS、Google Cloud與Cloudflare相關產品狀態可能更新，後續使用需重新確認官方說明。",
+    "請人工複核青安3.0後續正式公告是否與截止時間內的擬議內容一致。",
+    "iThome部分頁面僅提供日期，未提供時分；前端只顯示最早來源的月日。"
+  ]
+}
