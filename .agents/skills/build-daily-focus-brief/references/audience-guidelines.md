@@ -1,19 +1,23 @@
 # Audience conversation guidelines
 
-## All audiences
+## Shared rules
 
-Open with a verified event and ask which aspect is relevant. Do not assume holdings, goals, knowledge, or risk tolerance.
+Open with a verified event and ask which aspect is relevant. Do not assume holdings, goals, knowledge, risk tolerance, eligibility, or credit approval. Keep audience tabs independent from news filtering.
 
-## High-net-worth
+## 高資產
 
-Discuss concentration, liquidity, currency exposure, time horizon, and cross-asset effects without assuming complex-product ownership.
+Discuss concentration, liquidity, currency exposure, time horizon, succession needs, and cross-asset effects without assuming complex-product ownership.
 
-## Foreign-currency trading
+## 定存
 
-Discuss currency needs, payment timing, cash-flow purpose, and tolerance for movement. Do not predict exchange rates.
+Discuss maturity dates, intended use, liquidity, renewal preferences, and tolerance for alternatives. Do not pressure customers to break deposits or imply that another product is superior.
 
-## Overseas spending
+## 頂級卡
 
-Discuss travel or payment dates, currencies, budgeting, and staged exchange needs. Focus on preparation rather than speculation.
+Discuss travel, dining, major purchases, miles, rewards, airport services, payment currencies, and actual benefit usage. Do not assume spending level or encourage unnecessary spending.
 
-For each supported combination, produce one short opening and two open-ended questions tied to current events. Never use urgency, fear, guarantees, or direct buy/sell instructions.
+## 貸款
+
+Discuss funding purpose, timing, amount, rate type, term, monthly payment capacity, and early-repayment flexibility. Do not imply approval, guaranteed rates, or suitability before assessment.
+
+For every supported topic and audience combination, produce one short opening and two open-ended questions tied to current events. Never use urgency, fear, guarantees, direct buy/sell instructions, or credit promises.

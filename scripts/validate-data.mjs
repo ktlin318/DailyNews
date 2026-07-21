@@ -3,9 +3,9 @@ import { resolve } from "node:path";
 
 const root = resolve(import.meta.dirname, "..");
 const dataDir = resolve(root, "data");
-const allowedTopics = ["全部", "國際", "台股", "ETF", "AI", "生活"];
+const allowedTopics = ["全部", "投資理財", "貸款", "新鮮事", "AI"];
 const eventTopics = allowedTopics.slice(1);
-const allowedAudiences = ["全部客群", "高資產", "外幣交易", "海外消費"];
+const allowedAudiences = ["高資產", "定存", "頂級卡", "貸款"];
 const allowedSourceTypes = ["primary", "reporting", "issuer"];
 const errors = [];
 
@@ -18,12 +18,12 @@ function isString(value) {
 }
 
 function validateDigest(file, data) {
-  check(data.schema_version === "1.0.0", file, "schema_version", "must equal 1.0.0");
+  check(data.schema_version === "1.1.0", file, "schema_version", "must equal 1.1.0");
   check(/^\d{4}-\d{2}-\d{2}$/.test(data.date), file, "date", "must use YYYY-MM-DD");
   check(data.timezone === "Asia/Taipei", file, "timezone", "must equal Asia/Taipei");
   check(!Number.isNaN(Date.parse(data.generated_at)), file, "generated_at", "must be an ISO timestamp");
   check(JSON.stringify(data.topics) === JSON.stringify(allowedTopics), file, "topics", "must use the supported display order");
-  check(Array.isArray(data.audiences) && data.audiences.every((x) => allowedAudiences.includes(x)), file, "audiences", "contains an unsupported value");
+  check(JSON.stringify(data.audiences) === JSON.stringify(allowedAudiences), file, "audiences", "must use the supported display order");
   check(isString(data.daily_overview), file, "daily_overview", "is required");
   for (const topic of allowedTopics) check(isString(data.topic_overviews?.[topic]), file, `topic_overviews.${topic}`, "is required");
   check(Array.isArray(data.events) && data.events.length > 0, file, "events", "must contain at least one event");
@@ -56,12 +56,17 @@ function validateDigest(file, data) {
     check(isString(track.opening), file, `audience_talk_tracks.${key}.opening`, "is required");
     check(Array.isArray(track.questions) && track.questions.length === 2 && track.questions.every(isString), file, `audience_talk_tracks.${key}.questions`, "must contain exactly two questions");
   }
+  for (const topic of allowedTopics) {
+    for (const audience of allowedAudiences) {
+      check(Boolean(data.audience_talk_tracks?.[`${topic}|${audience}`]), file, `audience_talk_tracks.${topic}|${audience}`, "is required");
+    }
+  }
   check(Array.isArray(data.warnings), file, "warnings", "must be an array");
   check(Array.isArray(data.manual_review_items), file, "manual_review_items", "must be an array");
 }
 
 const index = JSON.parse(await readFile(resolve(dataDir, "index.json"), "utf8"));
-check(index.schema_version === "1.0.0", "index.json", "schema_version", "must equal 1.0.0");
+check(index.schema_version === "1.1.0", "index.json", "schema_version", "must equal 1.1.0");
 check(Array.isArray(index.dates) && index.dates.length > 0, "index.json", "dates", "must not be empty");
 check(index.dates?.includes(index.latest), "index.json", "latest", "must appear in dates");
 
