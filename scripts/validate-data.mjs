@@ -3,9 +3,10 @@ import { resolve } from "node:path";
 
 const root = resolve(import.meta.dirname, "..");
 const dataDir = resolve(root, "data");
-const allowedTopics = ["全部", "投資理財", "貸款", "信用卡", "新鮮事", "AI"];
-const eventTopics = allowedTopics.slice(1);
-const allowedAudiences = ["高資產", "定存", "頂級卡", "貸款"];
+const taxonomy = JSON.parse(await readFile(resolve(root, "config", "taxonomy.json"), "utf8"));
+const eventTopics = taxonomy.topics;
+const allowedTopics = [taxonomy.all_topic, ...eventTopics];
+const allowedAudiences = taxonomy.audiences;
 const allowedSourceTypes = ["primary", "reporting", "issuer"];
 const errors = [];
 
@@ -16,6 +17,13 @@ function check(condition, file, path, message) {
 function isString(value) {
   return typeof value === "string" && value.trim().length > 0;
 }
+
+check(taxonomy.schema_version === "1.0.0", "taxonomy.json", "schema_version", "must equal 1.0.0");
+check(isString(taxonomy.all_topic), "taxonomy.json", "all_topic", "is required");
+check(Array.isArray(eventTopics) && eventTopics.length > 0 && eventTopics.every(isString), "taxonomy.json", "topics", "must contain supported event topics");
+check(new Set(eventTopics).size === eventTopics.length && !eventTopics.includes(taxonomy.all_topic), "taxonomy.json", "topics", "must be unique and exclude all_topic");
+check(Array.isArray(allowedAudiences) && allowedAudiences.length > 0 && allowedAudiences.every(isString), "taxonomy.json", "audiences", "must contain supported audiences");
+check(new Set(allowedAudiences).size === allowedAudiences.length, "taxonomy.json", "audiences", "must be unique");
 
 function validateDigest(file, data) {
   check(data.schema_version === "1.1.0", file, "schema_version", "must equal 1.1.0");

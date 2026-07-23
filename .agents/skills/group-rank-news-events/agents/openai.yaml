@@ -1,0 +1,4 @@
+interface:
+  display_name: "新聞事件整併與排序"
+  short_description: "整併相同新聞事件並依透明且可維護的焦點評分規則完成排序"
+  default_prompt: "請使用 $group-rank-news-events 整併候選新聞並計算焦點排序。"

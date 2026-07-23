@@ -1,0 +1,4 @@
+interface:
+  display_name: "每日資料驗證與封裝"
+  short_description: "驗證每日新聞資料並封裝成網頁可以安全穩定讀取的標準 JSON"
+  default_prompt: "請使用 $validate-package-daily-data 驗證並封裝每日快報資料。"

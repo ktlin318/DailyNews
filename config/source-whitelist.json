@@ -1,0 +1,149 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-07-23",
+  "policy": {
+    "https_only": true,
+    "require_accessible_page": true,
+    "allow_search_snippet_as_evidence": false,
+    "allow_paywall_bypass": false,
+    "allow_python_crawler": false,
+    "preferred_material_event_mix": "一個原始或官方來源，加上一個獨立媒體來源",
+    "syndication_rule": "轉載網站與原始發布者分開記錄；相同通訊社稿件只算一個獨立報導來源"
+  },
+  "sources": [
+    {
+      "id": "federal-reserve",
+      "name": "美國聯邦準備理事會",
+      "domains": ["federalreserve.gov"],
+      "priority": 1,
+      "source_type": "primary",
+      "topics": ["投資理財", "貸款"],
+      "notes": "利率決策、聲明、會議資料與正式統計"
+    },
+    {
+      "id": "us-bls",
+      "name": "美國勞工統計局",
+      "domains": ["bls.gov"],
+      "priority": 1,
+      "source_type": "primary",
+      "topics": ["投資理財"],
+      "notes": "通膨、就業與官方統計"
+    },
+    {
+      "id": "twse",
+      "name": "臺灣證券交易所",
+      "domains": ["twse.com.tw"],
+      "priority": 1,
+      "source_type": "primary",
+      "topics": ["投資理財"],
+      "notes": "市場資料、公告與上市公司資訊"
+    },
+    {
+      "id": "tpex",
+      "name": "證券櫃檯買賣中心",
+      "domains": ["tpex.org.tw"],
+      "priority": 1,
+      "source_type": "primary",
+      "topics": ["投資理財"],
+      "notes": "櫃買市場資料與公告"
+    },
+    {
+      "id": "fsc",
+      "name": "金融監督管理委員會",
+      "domains": ["fsc.gov.tw"],
+      "priority": 1,
+      "source_type": "primary",
+      "topics": ["投資理財", "貸款", "信用卡"],
+      "notes": "金融政策、監理資料與正式公告"
+    },
+    {
+      "id": "sfb",
+      "name": "證券期貨局",
+      "domains": ["sfb.gov.tw"],
+      "priority": 1,
+      "source_type": "primary",
+      "topics": ["投資理財"],
+      "notes": "證券期貨監理與公告"
+    },
+    {
+      "id": "sitca",
+      "name": "中華民國證券投資信託暨顧問商業同業公會",
+      "domains": ["sitca.org.tw"],
+      "priority": 1,
+      "source_type": "primary",
+      "topics": ["投資理財"],
+      "notes": "基金、投信投顧與產業統計"
+    },
+    {
+      "id": "cna",
+      "name": "中央通訊社",
+      "domains": ["cna.com.tw"],
+      "priority": 2,
+      "source_type": "reporting",
+      "topics": ["*"],
+      "notes": "綜合、財經、科技與公共議題報導"
+    },
+    {
+      "id": "reuters",
+      "name": "路透社",
+      "domains": ["reuters.com"],
+      "priority": 2,
+      "source_type": "reporting",
+      "topics": ["投資理財", "AI", "新鮮事"],
+      "notes": "國際市場、企業與政策報導"
+    },
+    {
+      "id": "ap",
+      "name": "美聯社",
+      "domains": ["apnews.com"],
+      "priority": 2,
+      "source_type": "reporting",
+      "topics": ["新鮮事", "AI"],
+      "notes": "國際與公共議題報導"
+    },
+    {
+      "id": "udn-money",
+      "name": "經濟日報",
+      "domains": ["money.udn.com"],
+      "priority": 2,
+      "source_type": "reporting",
+      "topics": ["投資理財", "貸款", "信用卡", "AI"],
+      "notes": "財經、金融、產業與科技報導"
+    },
+    {
+      "id": "cnyes",
+      "name": "鉅亨網",
+      "domains": ["news.cnyes.com"],
+      "priority": 2,
+      "source_type": "reporting",
+      "topics": ["投資理財", "貸款", "信用卡", "AI"],
+      "notes": "市場、企業、金融與科技報導"
+    },
+    {
+      "id": "ithome",
+      "name": "iThome",
+      "domains": ["ithome.com.tw"],
+      "priority": 2,
+      "source_type": "reporting",
+      "topics": ["AI"],
+      "notes": "企業科技、資安、AI 與資料治理"
+    },
+    {
+      "id": "pts",
+      "name": "公視新聞網",
+      "domains": ["news.pts.org.tw"],
+      "priority": 2,
+      "source_type": "reporting",
+      "topics": ["新鮮事"],
+      "notes": "公共政策、生活與社會議題"
+    }
+  ],
+  "blocked_source_types": [
+    "社群貼文",
+    "論壇",
+    "內容農場",
+    "無編輯責任的聚合網站",
+    "只有搜尋片段的頁面",
+    "AI 生成新聞頁面"
+  ]
+}
