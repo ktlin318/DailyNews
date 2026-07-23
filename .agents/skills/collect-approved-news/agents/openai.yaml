@@ -1,0 +1,4 @@
+interface:
+  display_name: "核准來源新聞蒐集"
+  short_description: "依白名單搜尋新聞並保存完整可追溯的原始來源資料與內容紀錄"
+  default_prompt: "請使用 $collect-approved-news 蒐集指定日期與主題的核准來源新聞。"

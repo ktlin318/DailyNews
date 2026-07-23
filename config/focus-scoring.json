@@ -1,0 +1,62 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-07-23",
+  "candidate_policy": {
+    "target_min_per_topic": 15,
+    "target_max_per_topic": 30,
+    "pad_with_irrelevant_events": false,
+    "delete_valid_events_for_display_limit": false,
+    "web_page_size": 10
+  },
+  "weights": {
+    "importance": 40,
+    "cross_source_coverage": 25,
+    "homepage_or_popular": 20,
+    "audience_relevance": 10,
+    "recency": 5
+  },
+  "rubrics": {
+    "importance": {
+      "0": "無明確公共、市場或產業影響",
+      "10": "影響單一產品、公司或小範圍使用者",
+      "20": "影響一個產業、政策領域或明確客群",
+      "30": "影響多個產業、市場或廣泛消費者",
+      "40": "重大政策、系統性市場事件或廣泛跨市場影響"
+    },
+    "cross_source_coverage": {
+      "0": "沒有可用來源",
+      "8": "一個合格來源",
+      "15": "兩個獨立合格來源",
+      "20": "三個以上獨立來源",
+      "25": "至少一個原始來源及兩個獨立媒體來源"
+    },
+    "homepage_or_popular": {
+      "0": "沒有首頁、熱門榜或明確版位證據",
+      "10": "出現在來源主題首頁或重要專區",
+      "15": "出現在來源首頁或明確頭條區",
+      "20": "同時具有首頁與熱門榜、頭條或多站重要版位證據"
+    },
+    "audience_relevance": {
+      "0": "與目前客群沒有合理對話關聯",
+      "5": "可支持一個客群的非銷售型對話",
+      "10": "可支持多個客群且與金融或生活決策明確相關"
+    },
+    "recency": {
+      "0": "時間不明或接近搜尋窗口起點",
+      "3": "位於搜尋窗口中段",
+      "5": "接近搜尋窗口截止時間"
+    }
+  },
+  "sorting": [
+    "focus_score_desc",
+    "recency_desc",
+    "independent_source_count_desc",
+    "event_id_asc"
+  ],
+  "evidence_rules": {
+    "require_reason_for_every_component": true,
+    "score_without_evidence": 0,
+    "syndicated_copies_count_as_one_independent_source": true,
+    "focus_score_must_equal_component_sum": true
+  }
+}

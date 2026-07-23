@@ -1,0 +1,4 @@
+interface:
+  display_name: "客群溝通內容產製"
+  short_description: "根據當日新聞產生主題概況與各類客群專屬的溝通建議內容"
+  default_prompt: "請使用 $generate-audience-content 產生主題概況與客群溝通建議。"

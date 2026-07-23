@@ -1,0 +1,4 @@
+interface:
+  display_name: "新聞分類與摘要"
+  short_description: "依動態分類規則產生可追溯且忠於來源事實的新聞摘要內容"
+  default_prompt: "請使用 $classify-summarize-news 完成新聞分類、摘要與關鍵字。"
